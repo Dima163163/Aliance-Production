@@ -1,1 +1,5 @@
-# Aliance-Production
+# Aliance Production
+
+Проект
+
+### Автор: Хлопов Дмитрий
