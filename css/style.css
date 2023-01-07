@@ -222,13 +222,14 @@ body {
 
 .steps {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   gap: 1.875rem;
 }
 
 .steps-item {
-  max-width: 20.625rem;
+  width: 20.625rem;
 }
 
 .steps-num {
