@@ -238,6 +238,7 @@ body {
   list-style: none;
   padding: 0;
   gap: 1.875rem;
+  min-height: 13.625rem;
 }
 
 .steps-item {
@@ -361,6 +362,9 @@ body {
   }
   .slider-buttons {
     display: flex;
+  }
+  .steps-buttons {
+    display: none;
   }
   .steps-buttons {
     justify-content: end;
@@ -494,6 +498,9 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
+  }
+  .steps-buttons {
+    display: flex;
   }
 }
 
