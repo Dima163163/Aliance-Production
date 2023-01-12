@@ -524,4 +524,7 @@ body {
   .header-content {
     padding-top: 2rem;
   }
+  .steps-item {
+    min-width: 96%;
+  }
 }
