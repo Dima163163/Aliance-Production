@@ -242,7 +242,8 @@ body {
 }
 
 .steps-item {
-  width: 20.625rem;
+  max-width: 20.625rem;
+  max-width: 22.5rem;
   min-height: 100%;
 }
 
