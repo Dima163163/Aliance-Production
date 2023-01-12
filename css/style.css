@@ -242,9 +242,8 @@ body {
 }
 
 .steps-item {
-  max-width: 20.625rem;
-  max-width: 22.5rem;
-  min-height: 100%;
+  flex-shrink: 1;
+  width: 20.625rem;
 }
 
 .steps-num {
@@ -366,8 +365,6 @@ body {
   }
   .steps-buttons {
     display: none;
-  }
-  .steps-buttons {
     justify-content: end;
   }
 }
@@ -489,7 +486,7 @@ body {
     gap: 1.3125rem;
   }
   .steps-item {
-    max-width: 18.75rem;
+    min-width: 18.75rem;
   }
   .close-menu .mobile-menu-line:nth-child(2) {
     display: none;
@@ -514,9 +511,6 @@ body {
   }
   .header-content {
     padding-top: 3rem;
-  }
-  .header-features-item:last-child {
-    border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
 }
 
