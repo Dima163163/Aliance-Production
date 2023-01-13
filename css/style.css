@@ -519,12 +519,19 @@ body {
     max-width: 90%;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .header-content {
     padding-top: 2rem;
   }
+  .header-button {
+    min-width: 98%;
+    text-align: center;
+  }
   .steps-item {
     min-width: 96%;
+  }
+  .steps-text {
+    max-width: 90%;
   }
 }
