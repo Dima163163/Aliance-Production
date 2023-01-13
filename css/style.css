@@ -531,6 +531,9 @@ body {
   .steps-item {
     min-width: 96%;
   }
+  .steps-title {
+    word-spacing: 0.5rem;
+  }
   .steps-text {
     max-width: 90%;
   }
