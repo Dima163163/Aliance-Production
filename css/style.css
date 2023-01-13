@@ -534,6 +534,9 @@ body {
   .steps-title {
     word-spacing: 0.5rem;
   }
+  .steps-num::after {
+    max-width: 75%;
+  }
   .steps-text {
     max-width: 90%;
   }
