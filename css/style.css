@@ -242,12 +242,10 @@ body {
   list-style: none;
   padding: 0;
   gap: 1.875rem;
-  min-height: 13.625rem;
 }
 
 .steps-item {
-  flex-shrink: 1;
-  width: 20.625rem;
+  max-width: 20.625rem;
 }
 
 .steps-num {
@@ -305,17 +303,19 @@ body {
 }
 
 .steps-buttons {
+  display: none;
   height: 2.5rem;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .steps-button-prev,
 .steps-button-next {
   height: 100%;
-  flex-basis: 12.5%;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 3.75rem;
   cursor: pointer;
   background-color: #3a71d1;
 }
@@ -364,12 +364,14 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .steps-item {
+    min-width: 21.625rem;
+  }
   .slider-buttons {
     display: flex;
   }
   .steps-buttons {
-    display: none;
-    justify-content: end;
+    display: flex;
   }
 }
 
@@ -489,9 +491,6 @@ body {
     display: flex;
     gap: 1.3125rem;
   }
-  .steps-item {
-    min-width: 18.75rem;
-  }
   .close-menu .mobile-menu-line:nth-child(2) {
     display: none;
   }
@@ -501,8 +500,14 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
   }
-  .steps-buttons {
-    display: flex;
+  .steps-item {
+    min-width: 18.75rem;
+  }
+  .steps-text {
+    max-width: 88%;
+  }
+  .steps-num::after {
+    max-width: 75%;
   }
 }
 
@@ -538,9 +543,9 @@ body {
   .steps-title {
     word-spacing: 0.5rem;
   }
-  .steps-num::after {
+  /* .steps-num::after {
     max-width: 75%;
-  }
+  } */
   .steps-text {
     max-width: 90%;
   }
