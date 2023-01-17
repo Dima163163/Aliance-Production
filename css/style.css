@@ -504,6 +504,9 @@ body {
     min-width: 18.75rem;
     flex-shrink: 1;
   }
+  .steps-text {
+    max-width: 98%;
+  }
 }
 
 @media (max-width: 768px) {
