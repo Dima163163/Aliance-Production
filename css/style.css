@@ -502,12 +502,7 @@ body {
   }
   .steps-item {
     min-width: 18.75rem;
-  }
-  .steps-text {
-    max-width: 88%;
-  }
-  .steps-num::after {
-    max-width: 75%;
+    flex-shrink: 1;
   }
 }
 
@@ -542,11 +537,5 @@ body {
   }
   .steps-title {
     word-spacing: 0.5rem;
-  }
-  /* .steps-num::after {
-    max-width: 75%;
-  } */
-  .steps-text {
-    max-width: 90%;
   }
 }
