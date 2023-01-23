@@ -405,10 +405,6 @@ body {
   z-index: 0;
 }
 
-.treademarks {
-  margin-bottom: 9.375rem;
-}
-
 .treademark-cards {
   display: flex;
 }
@@ -417,7 +413,7 @@ body {
   flex-basis: 50%;
   text-decoration: none;
   border: 1px solid #ebebf0;
-  padding: 50px;
+  padding: 3.125rem;
   transition: fill 0.2s;
   display: grid;
   grid-column-gap: 50px;
