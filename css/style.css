@@ -523,6 +523,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #292d33;
+  padding-bottom: 1.25rem;
 }
 
 .clients-logo-list {
@@ -909,7 +910,6 @@ body {
   .clients-list-item {
     font-size: 14px;
     gap: 1.6rem;
-    margin-bottom: 15px;
   }
   .clients-logo {
     max-height: 100px;
