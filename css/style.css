@@ -549,7 +549,7 @@ body {
   filter: grayscale(99%);
 }
 
-.clients-logo:hover {
+.clients-logo-item:hover .clients-logo {
   transition: filter 0.3s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
