@@ -539,6 +539,11 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  cursor: pointer;
+}
+
+.clients-logo-item:hover {
+  border-color: #5c8ee6;
 }
 
 .clients-logo {
