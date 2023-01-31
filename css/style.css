@@ -95,7 +95,7 @@ body {
   flex-basis: 100%;
   list-style: none;
   padding: 0;
-  padding-left: 3.125rem;
+  padding-left: 2.625rem;
   margin: 0;
   height: 100%;
   align-items: center;
@@ -108,7 +108,7 @@ body {
 }
 
 .header-nav-item:not(:last-child) {
-  margin-right: 4%;
+  margin-right: 3.125rem;
 }
 
 .header-nav-link {
@@ -217,6 +217,7 @@ body {
   min-height: 10.5rem;
   padding: 0;
   margin-top: 6.25rem;
+  margin-bottom: 0px;
   list-style: none;
   color: #fff;
   position: relative;
@@ -246,6 +247,9 @@ body {
 }
 
 .header-features-text {
+  word-spacing: 1.2px;
+  letter-spacing: 0.2px;
+  max-width: 188px;
   font-weight: 25rem;
   font-size: 1rem;
   line-height: 160%;
@@ -255,7 +259,10 @@ body {
 
 .section {
   margin-top: 9.375rem;
-  margin-bottom: 9.375rem;
+}
+
+.section-production {
+  margin-top: 8.5rem;
 }
 
 .section-title {
@@ -264,11 +271,12 @@ body {
   line-height: 120%;
   color: #292d33;
   margin-top: 1.875rem;
+  margin-bottom: 2.25rem;
+  letter-spacing: 0.4px;
 }
 
 .steps {
   display: flex;
-  justify-content: space-between;
   list-style: none;
   padding: 0;
   gap: 1.875rem;
@@ -321,7 +329,6 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #5c8ee6;
-  padding-top: 0.3125rem;
 }
 
 .button-link::before {
@@ -364,14 +371,17 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 0.875rem;
+  padding-bottom: 1rem;
 }
 
 .card {
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   border: 1px solid #ebebf0;
   position: relative;
   text-decoration: none;
   transition: border 0.2s;
+  min-height: 37.0625rem;
 }
 
 .card:hover .card-title {
@@ -383,7 +393,7 @@ body {
 }
 
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 2.5rem 1.125rem 0 3.125rem;
 }
 
 .card-title {
@@ -394,9 +404,11 @@ body {
   margin-top: 0;
   margin-bottom: 0.625rem;
   transition: color 0.2s;
+  letter-spacing: 0.1px;
 }
 
 .card-text {
+  max-width: 19.375rem;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
@@ -405,11 +417,15 @@ body {
 }
 
 .card-image {
-  width: 90%;
+  width: 100%;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: 0;
+}
+
+.section-treademark {
+  margin-top: 8.25rem;
 }
 
 .treademark-cards {
@@ -446,7 +462,7 @@ body {
 }
 
 .treademark-card-logo {
-  padding: 20px 10px;
+  padding: 2.375rem 0.75rem 0.875rem 0;
   width: 180px;
   height: 180px;
   grid-area: logo;
@@ -462,18 +478,21 @@ body {
   line-height: 160%;
   color: #292d33;
   margin-bottom: 0;
+  padding-top: 10px;
+  letter-spacing: -0.3px;
 }
 
 .treademark-card-text {
   grid-area: text;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 140%;
+  line-height: 160%;
   color: #828a99;
   margin-bottom: 0;
+  letter-spacing: 0.0063rem;
 }
 
-.founder {
+.section-founder {
   min-height: 41.25rem;
   position: relative;
 }
@@ -485,14 +504,15 @@ body {
 .founder-photo {
   position: absolute;
   left: 0;
-  width: 40%;
-  top: 0;
+  width: 43.6%;
+  top: 12px;
   height: 100%;
   object-fit: cover;
 }
 
 .founder-content {
   max-width: 45rem;
+  margin-top: 3.875rem;
 }
 
 .founder-content-wrapper {
@@ -500,16 +520,25 @@ body {
   justify-content: flex-end;
 }
 
+.founder-section-title {
+  margin-bottom: 1.125rem;
+}
+
 .founder-text {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
+  margin-bottom: 1.625rem;
+}
+
+.section-clients {
+  margin-top: 10rem;
 }
 
 .clients-wrapper {
   display: flex;
-  gap: 50px;
+  gap: 16px;
 }
 
 .clients-content {
@@ -534,12 +563,14 @@ body {
 }
 
 .clients-logo-list {
+  margin-top: 1.875rem;
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 10;
 }
 
 .clients-logo-item {
+  height: 10rem;
   flex-basis: 33%;
   border: 1px solid #ebebf0;
   display: flex;
@@ -566,6 +597,14 @@ body {
   transition: filter 0.3s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+.section-blog {
+  margin-bottom: 10.625rem;
+}
+
+.blog-section-title {
+  margin-bottom: 3rem;
 }
 
 .blog-card {
@@ -629,9 +668,9 @@ body {
 }
 
 .section-cta {
+  height: 552px;
   position: relative;
-  padding-top: 6.25rem;
-  margin-top: 9.375rem;
+  padding-top: 3.25rem;
   padding-bottom: 6.25rem;
 }
 
@@ -644,12 +683,18 @@ body {
 }
 
 .cta-form-wrapper {
+  margin-left: 14.6875rem;
   display: flex;
   justify-content: flex-end;
 }
 
 .cta-form {
-  max-width: 52.5rem;
+  padding-top: 1.125rem;
+  width: 52.5rem;
+}
+
+.cta-form-title {
+  margin-bottom: 1.25rem;
 }
 
 .cta-form-text {
@@ -659,11 +704,12 @@ body {
   line-height: 160%;
   color: #828a99;
   margin-top: 1.375rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.125rem;
   max-width: 40rem;
 }
 
 .input-group-wrapper {
+  max-width: 52.5rem;
   display: flex;
   gap: 1.875rem;
 }
@@ -719,6 +765,7 @@ body {
 }
 
 .cta-form-button {
+  padding: 1.125rem 2.8125rem;
   flex-shrink: 0;
 }
 
