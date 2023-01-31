@@ -824,6 +824,9 @@ body {
   .header-phone {
     margin-right: 2rem;
   }
+  .cta-image {
+    width: 40%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -877,7 +880,10 @@ body {
     flex-basis: 60%;
   }
   .cta-image {
-    max-width: 26rem;
+    display: none;
+  }
+  .cta-form-wrapper {
+    justify-content: flex-start;
   }
 }
 
@@ -1016,11 +1022,8 @@ body {
   .clients-wrapper {
     flex-direction: column;
   }
-  .cta-image {
-    display: none;
-  }
   .cta-form-wrapper {
-    justify-content: center;
+    margin: 0 auto;
   }
 }
 
