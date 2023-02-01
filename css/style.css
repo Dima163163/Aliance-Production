@@ -787,7 +787,8 @@ body {
 }
 
 .footer-top {
-  padding-top: 0.125rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
   display: flex;
   align-items: center;
   gap: 2.625rem;
@@ -796,6 +797,7 @@ body {
 .footer-logo {
   width: 12.5rem;
   height: 3.75rem;
+  margin-right: 4.375rem;
 }
 
 .footer-info {
@@ -829,10 +831,10 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
-  line-height: 160px;
+  line-height: 160%;
   text-decoration: underline;
   color: #292d33;
-  padding-left: 7.375rem;
+  margin-left: 3.125rem;
 }
 
 .footer-social {
