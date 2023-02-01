@@ -956,6 +956,9 @@ body {
     width: 140px;
     height: 140px;
   }
+  .footer-phone {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 1460px) {
@@ -1037,6 +1040,18 @@ body {
   }
   .cta-form-wrapper {
     justify-content: center;
+  }
+  .footer-logo {
+    margin-right: 0;
+  }
+  .footer-phone {
+    font-size: 18px;
+  }
+  .footer-info {
+    padding-left: 0;
+  }
+  .footer-social {
+    margin-left: 0;
   }
 }
 
@@ -1174,6 +1189,29 @@ body {
   }
   .clients-wrapper {
     flex-direction: column;
+  }
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-menu-column-2 {
+    columns: 1;
+  }
+  .footer-menu-wrapper {
+    text-align: center;
+  }
+  .footer-menu-wrapper:last-child {
+    margin-left: 0;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-legal {
+    flex-direction: column;
+    gap: 0;
   }
 }
 
