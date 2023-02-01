@@ -683,7 +683,6 @@ body {
 }
 
 .cta-form-wrapper {
-  margin-left: 14.6875rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -883,7 +882,7 @@ body {
     display: none;
   }
   .cta-form-wrapper {
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
 
@@ -1021,9 +1020,6 @@ body {
   }
   .clients-wrapper {
     flex-direction: column;
-  }
-  .cta-form-wrapper {
-    margin: 0 auto;
   }
 }
 
