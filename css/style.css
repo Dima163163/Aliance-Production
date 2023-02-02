@@ -1246,8 +1246,12 @@ body {
     margin-bottom: 0;
   }
   .header-text {
-    line-height: 180%;
-    letter-spacing: 1px;
+    margin-top: 9px;
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    word-spacing: 0px;
   }
   .header-button {
     font-size: 1.2rem;
@@ -1260,7 +1264,7 @@ body {
   }
   .section-title {
     font-size: 36px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0;
   }
   .steps-buttons {
     margin-top: 20px;
@@ -1272,13 +1276,15 @@ body {
   }
   .section-production {
     margin-top: 100px;
-    margin-bottom: 100px;
+  }
+  .cards {
+    padding-top: 4px;
   }
   .card {
     height: 430px;
   }
   .card-content {
-    padding: 15px 24px;
+    padding: 15px 26px;
   }
   .card-title {
     letter-spacing: -0.5px;
@@ -1286,12 +1292,19 @@ body {
     margin-bottom: 1px;
   }
   .card-text {
+    max-width: 100%;
+    font-size: 14px;
     margin-top: 6px;
-    letter-spacing: -1.1px;
-    line-height: 144%;
+    line-height: 160%;
   }
   .card-image {
     width: 100%;
+  }
+  .serction-teademark {
+    margin-top: 86px;
+  }
+  .section-treademark-title {
+    letter-spacing: 0.4px;
   }
   .founder-photo {
     position: relative;
@@ -1311,6 +1324,10 @@ body {
 @media (max-width: 576px) {
   .container {
     max-width: 92%;
+  }
+  .header-title {
+    word-spacing: 0;
+    letter-spacing: 0.0125rem;
   }
   .header-button {
     min-width: 100%;
@@ -1338,14 +1355,25 @@ body {
   .treademark-card-title {
     font-size: 20px;
     line-height: 125%;
+    padding-top: 2px;
+    padding-left: 4px;
   }
   .treademark-card-text {
     font-size: 14px;
-    margin-top: 18px;
+    margin-top: 20px;
     word-spacing: -1.3px;
     line-height: 156%;
   }
+  .section-founder {
+    margin-top: 92px;
+  }
+  .container-founder {
+    max-width: 90%;
+  }
   .founder-content {
+    margin-top: 10px;
+  }
+  .founder-content-wrapper {
     margin-top: 10px;
   }
   .founder-section-title {
@@ -1353,9 +1381,13 @@ body {
   }
   .founder-text {
     margin-top: 10px;
+    margin-bottom: 14px;
     word-spacing: -1px;
     font-size: 14px;
     line-height: 156%;
+  }
+  .founder-text-bottom {
+    margin-bottom: 20px;
   }
   .clients-list {
     columns: 1;
@@ -1402,6 +1434,7 @@ body {
   }
   .button-link::before {
     width: 3.5rem;
+    margin-right: 20px;
   }
   .section-cta {
     margin-top: 8.25rem;
