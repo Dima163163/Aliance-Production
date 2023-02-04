@@ -132,6 +132,7 @@ const swiperBlog = new Swiper(".blog-slider", {
 const modal = document.querySelector(".modal");
 const modalToggle = document.querySelectorAll("[data-toggle=modal]");
 const modalClose = document.querySelector(".modal-close");
+
 console.log(modalToggle);
 modalToggle.forEach((element) => {
   element.addEventListener("click", (event) => {
@@ -142,4 +143,12 @@ modalToggle.forEach((element) => {
 modalClose.addEventListener("click", (event) => {
   event.preventDefault();
   modal.classList.remove("is-open");
+});
+
+const modalDialog = document.querySelector(".modal-dialog");
+modal.addEventListener("click", (event) => {
+  const withinBoundaries = event.composedPath().includes(modalDialog);
+  if (!withinBoundaries) {
+    modal.classList.remove("is-open"); // скрываем элемент т к клик был за его пределами
+  }
 });
