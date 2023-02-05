@@ -152,3 +152,13 @@ modal.addEventListener("click", (event) => {
     modal.classList.remove("is-open"); // скрываем элемент т к клик был за его пределами
   }
 });
+
+document.addEventListener(
+  "keydown",
+  function (event) {
+    if (event.keyCode == 27) {
+      document.querySelector(".modal").classList.remove("is-open");
+    }
+  },
+  false
+);
