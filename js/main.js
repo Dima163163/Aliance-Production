@@ -153,12 +153,9 @@ modal.addEventListener("click", (event) => {
   }
 });
 
-document.addEventListener(
-  "keydown",
-  function (event) {
-    if (event.keyCode == 27) {
-      document.querySelector(".modal").classList.remove("is-open");
-    }
-  },
-  false
-);
+document.addEventListener("keydown", function (event) {
+  if (event.keyCode == 27) {
+    // код клавиши Escape, но можно использовать e.key
+    modal.classList.remove("is-open");
+  }
+});
