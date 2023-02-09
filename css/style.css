@@ -1263,18 +1263,33 @@ body {
   }
   .mobile-menu-toggle {
     width: 80px;
-    height: 100%;
     flex-direction: column;
     display: flex;
-    justify-content: space-between;
-    padding: 2.3rem 2.5rem;
+    padding: 1.6875rem 1.875rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
-  .navbar-light .close-menu {
-    padding: 12px 24px;
+  .mobile-menu-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    width: 24px;
+    height: 24px;
   }
-  .navbar-light .mobile-menu-toggle {
-    padding: 20px 30px;
+  .navbar-light .mobile-menu-button {
+    gap: 0;
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateX(6px) translateY(0px);
+    width: 20px;
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateX(9px) translateY(-2px);
+    width: 20px;
   }
   .navbar-light .mobile-menu-line {
     background-color: #333;
@@ -1288,15 +1303,15 @@ body {
   .mobile-menu-line:nth-child(2) {
     width: 80%;
   }
-  .navbar-light .mobile-menu-line:nth-child(2) {
-    width: 80%;
-  }
   .navbar-button .button-text {
     display: none;
   }
   .navbar-button .button-icon {
     display: block;
     fill: #ffffff;
+  }
+  .navbar-light .navbar-button {
+    padding-top: 12px;
   }
   .mobile-menu {
     position: fixed;
@@ -1371,29 +1386,6 @@ body {
   .social-info {
     display: flex;
     gap: 1.3125rem;
-  }
-  .navbar .close-menu {
-    padding: 20px 32px;
-  }
-  .is-open .navbar-light .close-menu {
-    padding: 12px 30px;
-  }
-  .close-menu .mobile-menu-line:nth-child(2) {
-    display: none;
-  }
-  .navbar .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(9px);
-  }
-  .navbar .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-9px);
-  }
-  .navbar-light .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(20px);
-    width: 18px;
-  }
-  .navbar-light .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-20px);
-    width: 18px;
   }
   .steps-item {
     min-width: 18.75rem;
