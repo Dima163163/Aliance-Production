@@ -188,7 +188,7 @@
           <div class="header-content-left">
             <img
               class="header-content-image"
-              src="./img/auto-him-header.png"
+              src="./img/avto-him-header.png"
               alt="avto-him"
             />
           </div>
