@@ -1307,11 +1307,9 @@ body {
     display: none;
   }
   .navbar-button .button-icon {
-    display: block;
+    display: flex;
+    align-items: center;
     fill: #ffffff;
-  }
-  .navbar-light .navbar-button {
-    padding-top: 12px;
   }
   .mobile-menu {
     position: fixed;

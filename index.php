@@ -110,7 +110,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="../Aliance-Production/about.html" class="header-nav-link"
+          <a href="/about.html" class="header-nav-link"
             >О компании</a
           >
         </li>
