@@ -1171,6 +1171,9 @@ body {
   .container {
     max-width: 70rem;
   }
+  .header-nav-link {
+    font-size: 12px;
+  }
   .header-phone {
     display: none;
   }
