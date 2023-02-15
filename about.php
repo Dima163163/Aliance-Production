@@ -142,7 +142,7 @@
       </button>
     </nav>
     <!-- /.navbar -->
-    <header class="header header-about">
+    <header class="header header-about header-bg">
       <div class="container">
         <div class="header-wrapper">
           <div class="header-content-left">
@@ -163,7 +163,7 @@
         </div>
       </div>
     </header>
-    <header class="header header-about">
+    <header class="header header-about header-bg">
       <div class="container">
         <div class="header-wrapper">
           <div class="header-content-left">
