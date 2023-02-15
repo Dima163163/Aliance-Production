@@ -1052,6 +1052,16 @@ body {
   background-color: #f0f2f5;
 }
 
+.header-content-right {
+  position: relative;
+  width: 30%;
+}
+
+.header-content-image {
+  position: absolute;
+  bottom: 0;
+}
+
 .header-background-image {
   background-image: url("../img/header-background.png");
   background-size: cover;

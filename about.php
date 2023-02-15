@@ -187,7 +187,7 @@
               </ul>
             </div>
           </div>
-          <div class="header-content-left">
+          <div class="header-content-right">
             <img
               class="header-content-image"
               src="./img/avto-him-header.png"
@@ -230,7 +230,7 @@
               </ul>
             </div>
           </div>
-          <div class="header-content-left"></div>
+          <div class="header-content-right"></div>
         </div>
       </div>
     </header>
