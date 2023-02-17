@@ -12,7 +12,10 @@
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <?php 
+    echo '<link rel="stylesheet" href="css/style.css?'.time().'"/>'
+    ?>
+    
     <title> <?php echo date('Y')?> - Aliance Production</title>
   </head>
   <body class="front-page">
@@ -149,7 +152,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-title">
-            Комплексное обеспечение товарами и расходными материалами бизнеса
+            Комплексное обеспечение товарами и расходными материалами бизнеса
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
