@@ -1001,7 +1001,7 @@ body {
 }
 
 .modal-dialog {
-  max-height: 627px;
+  min-height: 627px;
   margin: auto;
   max-width: 460px;
   padding: 2.5rem 3.125rem;
@@ -1052,7 +1052,6 @@ body {
 
 .modal-form-footer {
   margin-top: 32px;
-  margin-bottom: 8px;
 }
 
 .modal-form-button {
@@ -1144,6 +1143,88 @@ body {
 .header-breadcrumb-link-light,
 .header-breadcrumb-item-active-light {
   color: #fff;
+}
+
+.modal-success {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+}
+
+.modal-success.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-success.is-open .modal-dialog {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-success-dialog {
+  min-height: 43.625rem;
+  margin: auto;
+  max-width: 460px;
+  padding: 2.5rem 3.125rem;
+  background-color: #fff;
+  position: relative;
+  opacity: 1;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.success-img {
+  width: 22.5rem;
+  height: 19.375rem;
+}
+
+.modal-close {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ebebf0;
+}
+
+.modal-success-title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 120%;
+  color: #292d33;
+  margin-top: 1.625rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.2px;
+}
+
+.modal-success-text {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 1.875rem;
+}
+
+.modal-success-button {
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 1700px) {
