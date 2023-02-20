@@ -28,7 +28,7 @@
                   id="user-phone"
                   type="tel"
 									name="userphone"
-                  class="input"
+                  class="input phone-mask"
                   placeholder=" "
                   maxlength="30"
                   required
@@ -273,8 +273,6 @@
     </div>
 		<script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
-    <script src="js/jquery-3.6.3.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
