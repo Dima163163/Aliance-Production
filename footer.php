@@ -252,11 +252,9 @@
     </div>
     <div class="modal" id="alert-modal">
       <div class="modal-dialog">
-        <div class="modal-top">
           <svg class="modal-img">
               <use href="img/sprite.svg#success"></use>
             </svg>
-        </div>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
