@@ -185,10 +185,10 @@
         <!-- /.footer-wrapper -->
       </div>
     </footer>
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -219,7 +219,7 @@
               <input
                 id="modal-user-phone"
                 type="tel"
-                class="input modal-input"
+                class="input modal-input phone-mask"
                 name="userphone"
                 placeholder=" "
               />
@@ -250,23 +250,23 @@
         </form>
       </div>
     </div>
-    <div class="modal-success">
-      <div class="modal-success-dialog">
-        <div class="modal-success-top">
-          <svg class="success-img">
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
+        <div class="modal-top">
+          <svg class="modal-img">
               <use href="img/sprite.svg#success"></use>
             </svg>
         </div>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
         </a>
-        <h2 class="modal-success-title">Спасибо за заявку!</h2>
-        <p class="modal-success-text">
+        <h2 class="modal-title modal-title-success">Спасибо за заявку!</h2>
+        <p class="modal-text modal-text-success">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button type="submit" class="button modal-success-button">
+        <button type="submit" class="button modal-button">
           Вернуться на главную
         </button>
       </div>
