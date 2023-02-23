@@ -1331,7 +1331,7 @@ body {
   }
   .navbar-light .mobile-menu-toggle {
     height: 100%;
-    padding: 20px 20px 16px 30px;
+    align-items: center;
   }
   .mobile-menu-toggle {
     width: 80px;
@@ -1344,7 +1344,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     width: 20px;
-    height: 24px;
+    height: 18px;
   }
   .navbar-light .mobile-menu-button {
     gap: 0;
@@ -1357,7 +1357,7 @@ body {
     width: 20px;
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateX(9px) translateY(-3px);
+    transform: rotate(-45deg) translateX(7px) translateY(-3px);
     width: 20px;
   }
   .navbar-light .mobile-menu-line {
