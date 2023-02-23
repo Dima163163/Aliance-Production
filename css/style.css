@@ -1335,8 +1335,9 @@ body {
   }
   .mobile-menu-toggle {
     width: 80px;
+    height: 100%;
     display: flex;
-    padding: 1.6875rem 1.875rem 1.6875rem 2.375rem;
+    padding: 2.2rem 1.875rem 1.6875rem 2.375rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .mobile-menu-button {
