@@ -1329,18 +1329,17 @@ body {
     justify-content: center;
   }
   .mobile-menu-toggle {
-    margin-left: 6px;
     width: 80px;
     flex-direction: column;
     display: flex;
-    padding: 1.6875rem 1.875rem;
+    padding: 1.6875rem 1.875rem 1.6875rem 2.375rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .mobile-menu-button {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 22px;
+    width: 20px;
     height: 24px;
   }
   .navbar-light .mobile-menu-button {
