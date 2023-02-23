@@ -1331,6 +1331,7 @@ body {
   }
   .mobile-menu-toggle {
     width: 80px;
+    height: 100%;
     flex-direction: column;
     display: flex;
     padding: 1.6875rem 1.875rem 1.6875rem 2.375rem;
