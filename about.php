@@ -148,7 +148,7 @@
           <div class="header-content-left">
             <div class="header-content-about">
               <div class="seporator"></div>
-              <h1 class="header-title">о компании</h1>
+              <h1 class="header-title header-title-page">о компании</h1>
               <ul class="header-breadcrumb">
                 <li class="header-breadcrumb-item">
                   <a class="header-breadcrumb-link" href="/index.html"
@@ -169,7 +169,7 @@
           <div class="header-content-left">
             <div class="header-content-about">
               <div class="seporator"></div>
-              <h1 class="header-title">Автомобильная химия</h1>
+              <h1 class="header-title header-title-page">Автомобильная химия</h1>
               <ul class="header-breadcrumb">
                 <li class="header-breadcrumb-item">
                   <a class="header-breadcrumb-link" href="/index.html"
@@ -203,7 +203,7 @@
           <div class="header-content-left">
             <div class="header-content-about">
               <div class="seporator"></div>
-              <h1 class="header-title header-title-light">
+              <h1 class="header-title header-title-page header-title-light">
                 Современная методология разработки одухотворила всех причастных
               </h1>
               <ul class="header-breadcrumb">
@@ -230,7 +230,6 @@
               </ul>
             </div>
           </div>
-          <div class="header-content-right"></div>
         </div>
       </div>
     </header>
