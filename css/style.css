@@ -1079,6 +1079,7 @@ body {
 }
 
 .header-content-image {
+  max-height: 90%;
   position: absolute;
   bottom: 0;
 }
@@ -1104,12 +1105,12 @@ body {
 
 .header-wrapper {
   display: flex;
-  justify-content: space-between;
   z-index: 1;
   position: relative;
 }
 
 .header-title-page {
+  min-width: 960px;
   margin-bottom: 0;
 }
 
