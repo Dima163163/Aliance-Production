@@ -1329,9 +1329,12 @@ body {
     flex-grow: 1;
     justify-content: center;
   }
+  .navbar-light .mobile-menu-toggle {
+    height: 100%;
+    padding: 14px 28px;
+  }
   .mobile-menu-toggle {
     width: 80px;
-    height: 100%;
     flex-direction: column;
     display: flex;
     padding: 1.6875rem 1.875rem 1.6875rem 2.375rem;
