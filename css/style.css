@@ -292,6 +292,7 @@ body {
   list-style: none;
   padding: 0;
   gap: 1.875rem;
+  margin-bottom: 42px;
 }
 
 .steps-item {
@@ -1330,11 +1331,10 @@ body {
   }
   .mobile-menu-button {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
     flex-direction: column;
-    gap: 4px;
-    width: 24px;
+    justify-content: space-evenly;
+    width: 22px;
+    margin-left: 6px;
     height: 24px;
   }
   .navbar-light .mobile-menu-button {
@@ -1555,16 +1555,19 @@ body {
   .card-image {
     width: 100%;
   }
-  .serction-teademark {
-    margin-top: 86px;
+  .section.serction-teademark {
+    margin-top: 88px;
   }
   .section-treademark-title {
     letter-spacing: 0.4px;
   }
+  .treademark-cards {
+    margin-top: 28px;
+  }
   .founder-photo {
     position: relative;
     width: 100%;
-    margin-bottom: 3.125rem;
+    margin-bottom: 44px;
   }
   .footer-bottom {
     justify-content: center;
@@ -1583,11 +1586,6 @@ body {
   .logo-svg {
     width: 176px;
     height: 60px;
-  }
-  .navbar-light .mobile-menu-button {
-    justify-content: space-evenly;
-    width: 22px;
-    margin-left: 6px;
   }
   .container {
     max-width: 92%;
@@ -1628,11 +1626,12 @@ body {
   .treademark-card-text {
     font-size: 14px;
     margin-top: 20px;
+    margin-bottom: 0;
     word-spacing: -1.3px;
     line-height: 156%;
   }
   .section-founder {
-    margin-top: 92px;
+    margin-top: 82px;
   }
   .container-founder {
     max-width: 90%;
@@ -1648,13 +1647,16 @@ body {
   }
   .founder-text {
     margin-top: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
     word-spacing: -1px;
     font-size: 14px;
     line-height: 156%;
   }
   .founder-text-bottom {
     margin-bottom: 20px;
+  }
+  .section-title-clients {
+    letter-spacing: 0.3px;
   }
   .clients-list {
     columns: 1;
@@ -1673,19 +1675,27 @@ body {
     font-size: 14px;
     gap: 1.6rem;
   }
+  .clients-logo-list {
+    margin-top: 0px;
+  }
   .clients-logo {
     max-height: 100px;
     width: 50px;
     height: 50px;
   }
+  .clients-logo-item {
+    height: 110px;
+  }
   .button-link {
     font-size: 14px;
   }
   .section-blog {
+    margin-top: 102px;
     margin-bottom: 0;
   }
   .blog-section-title {
     letter-spacing: 0.2px;
+    margin-bottom: 28px;
   }
   .blog-card {
     height: 195px;
@@ -1712,14 +1722,12 @@ body {
   }
   .cta-form-title {
     font-size: 36px;
-    letter-spacing: -0.2px;
     margin-bottom: 0;
   }
   .cta-form-text {
     margin-top: 0.625rem;
     margin-bottom: 2.125rem;
     font-size: 14px;
-    word-spacing: -1.2px;
     line-height: 154%;
   }
   .input-group-wrapper {

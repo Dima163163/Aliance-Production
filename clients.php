@@ -3,7 +3,7 @@
         <div class="seporator"></div>
         <div class="clients-wrapper">
           <div class="clients-content">
-            <h2 class="section-title">
+            <h2 class="section-title section-title-clients">
               Производим аэрозольную продукцию для разных сфер
             </h2>
             <ul class="clients-list">
