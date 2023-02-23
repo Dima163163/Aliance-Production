@@ -1241,6 +1241,7 @@ body {
     height: 5.8rem;
   }
   .navbar-button {
+    padding-top: 16px;
     padding-left: 2.3rem;
     padding-right: 2.3rem;
   }
