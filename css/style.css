@@ -39,6 +39,7 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  border: none;
 }
 
 .logo-dark {
