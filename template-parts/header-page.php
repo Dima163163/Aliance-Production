@@ -12,13 +12,10 @@
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <?php 
-    echo '<link rel="stylesheet" href="css/style.css?'.time().'"/>'
-    ?>
-    
-    <title> <?php echo date('Y')?> - Aliance Production</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title><?= $page_title ?> - Aliance Production</title>
   </head>
-  <body class="front-page">
+  <body>
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
@@ -28,10 +25,10 @@
           <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="./avtohim.php" class="mobile-submenu-link">Автомобильная химия</a>
+              <a class="mobile-submenu-link" href="./avtohim.php">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="./household-chemicals.php" class="mobile-submenu-link">Бытовая химия</a>
+              <a  href="./household-chemicals.php"class="mobile-submenu-link">Бытовая химия</a>
             </li>
             <li class="mobile-submenu-item">
               <a href="./desinfectians.php" class="mobile-submenu-link"
@@ -47,7 +44,7 @@
               >
             </li>
             <li class="mobile-submenu-item">
-              <a href="./paints.php" class="mobile-submenu-link">Краски аэрозольные</a>
+              <a class="mobile-submenu-link" href="./paints.php">Краски аэрозольные</a>
             </li>
           </ul>
         </li>
@@ -95,7 +92,7 @@
         <!-- /.instagram-info -->
       </div>
     </div>
-    <nav class="navbar">
+    <nav class="navbar navbar-light">
       <a href="#" class="mobile-menu-toggle">
         <div class="mobile-menu-button">
           <div class="mobile-menu-line"></div>
@@ -113,9 +110,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="./about.php" class="header-nav-link"
-            >О компании</a
-          >
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
@@ -147,34 +142,20 @@
       </button>
     </nav>
     <!-- /.navbar -->
-    <header class="header header-image">
+    <header class="page-header <?= $header_style; ?>">
+    <div class="page-header-wrapper">
       <div class="container">
-        <div class="header-content">
-          <div class="seporator"></div>
-          <h1 class="header-title">
-            Комплексное обеспечение товарами <br> и расходными материалами бизнеса
-          </h1>
-          <p class="header-text">
-            Высокий уровень вовлечения представителей целевой аудитории является
-            четким доказательством простого факта: высококачественный прототип
-            будущего проекта напрямую зависит от анализа существующих паттернов
-            поведения.
-          </p>
-          <div class="button header-button" data-toggle="modal" data-target="#feedback-modal">
-            Подробнее о компании
-          </div>
-        </div>
-        <!-- /.header-content -->
-        <!-- Основной блок слайдера -->
-        <?php include_once('./template-parts/features.php');?>
+        <div class="seporator"></div>
+          <h1 class="page-header-title"><?= $page_title ?></h1>
+          <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link" href="/index.html"
+                  >Главная</a
+                  >
+              </li>
+              <li class="breadcrumbs-item active"><?= $page_title ?></li>
+          </ul>
       </div>
-      <!-- /.container -->
+    </div>
     </header>
-    <?php include_once('./template-parts/section-light.php');?>
-    <?php $block_title = "контрактное производство"; include_once('./template-parts/section-production.php');?>
-    <?php $block_title = "собственные торговые марки"; include_once('./template-parts/section-trademark.php');?>
-    <?php include_once('./template-parts/founder.php');?>
-    <?php include_once('./template-parts/clients.php');?>
-    <?php $blog_title = 'Блог экспертов в области производства'; include_once('./template-parts/section-blog.php');?>
-    <?php include_once('./template-parts/footer.php');?>
-
+    

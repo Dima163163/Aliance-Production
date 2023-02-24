@@ -1,11 +1,13 @@
 <section class="section section-treademark">
       <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title section-treademark-title">
-          собственные марки
-        </h2>
+        <?php 
+        if (!empty($block_title)) {
+          echo '<div class="seporator"></div>';
+          echo '<h2 class="section-title section-treademark-title">'. $block_title .'</h2>';
+        }
+        ?>
         <div class="treademark-cards">
-          <a href="#" class="treademark-card">
+          <a href="./avtohim-agtech.php" class="treademark-card">
             <svg class="treademark-card-logo">
               <use href="img/sprite.svg#AGTECH"></use>
             </svg>
@@ -16,7 +18,7 @@
               обществом задач.
             </p>
           </a>
-          <a href="#" class="treademark-card">
+          <a href="./avtohim-ap.php" class="treademark-card">
             <svg class="treademark-card-logo">
               <use href="img/sprite.svg#AP"></use>
             </svg>

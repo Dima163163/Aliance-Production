@@ -1067,32 +1067,25 @@ body {
   margin-bottom: 24px;
 }
 
-.header-about {
-  margin-top: 5.875rem;
+.page-header-bg-grey {
   background-color: #f0f2f5;
-  padding-top: 50px;
 }
 
-.header-content-right {
-  position: relative;
-  width: 30%;
+.page-header {
+  padding-top: 9.375rem;
+  padding-bottom: 3.125rem;
 }
 
-.header-content-image {
-  max-height: 90%;
-  position: absolute;
-  bottom: 0;
-}
-
-.header-background-image {
+.page-header-bg-image {
   background-image: url("../img/header-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  color: #fff;
   position: relative;
 }
 
-.header-background-image::before {
+.page-header-bg-image::before {
   content: "";
   position: absolute;
   background-color: rgba(41, 45, 51, 0.6);
@@ -1103,56 +1096,54 @@ body {
   z-index: 0;
 }
 
-.header-wrapper {
-  display: flex;
+.page-header-wrapper {
   z-index: 1;
   position: relative;
-}
-
-.header-title-page {
-  min-width: 960px;
-  margin-bottom: 0;
-}
-
-.header-title-light {
-  color: #fff;
-}
-
-.header-breadcrumb {
-  display: flex;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-left: 0;
-  margin: 0;
-  list-style: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 160%;
-}
-
-.header-breadcrumb-link {
-  text-decoration: none;
-  color: #828a99;
-}
-
-.header-breadcrumb-item:not(:last-child)::after {
-  display: inline-block;
-  align-items: center;
-  margin: 4px 10px;
-  content: "";
-  width: 14px;
-  height: 1px;
-  background: #828a99;
-}
-
-.header-breadcrumb-item {
   color: #292d33;
 }
 
-.header-breadcrumb-link-light,
-.header-breadcrumb-item-active-light {
+.page-header-title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120%;
+  color: inherit;
+  margin-bottom: 0;
+}
+
+.page-header-bg-image .page-header-title {
+  color: #fff;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: inherit;
+  color: #828a99;
+}
+
+.breadcrumbs-item.active .breadcrumb-link {
+  color: #292d33;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: "—";
+  margin-left: 10px;
+  color: #828a99;
+}
+
+.page-header-bg-image .breadcrumbs-link,
+.page-header-bg-image .breadcrumbs-item.active,
+.page-header-bg-image .breadcrumbs-item:not(:last-child)::after {
   color: #fff;
 }
 
