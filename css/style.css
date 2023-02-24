@@ -1074,6 +1074,7 @@ body {
 .page-header {
   padding-top: 9.375rem;
   padding-bottom: 3.125rem;
+  position: relative;
 }
 
 .page-header-bg-image {
@@ -1102,6 +1103,13 @@ body {
   color: #292d33;
 }
 
+.page-header-image {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  max-width: 30rem;
+}
+
 .page-header-title {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -1110,6 +1118,7 @@ body {
   line-height: 120%;
   color: inherit;
   margin-bottom: 0;
+  max-width: 960px;
 }
 
 .page-header-bg-image .page-header-title {
