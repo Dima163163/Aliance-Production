@@ -231,7 +231,6 @@ body {
   margin-top: 6.25rem;
   margin-bottom: 0px;
   list-style: none;
-  color: #fff;
   position: relative;
 }
 
@@ -267,6 +266,11 @@ body {
   line-height: 160%;
   margin-bottom: 0;
   margin-top: 1.125rem;
+  color: #fff;
+}
+
+.features-text-black {
+  color: #292d33;
 }
 
 .section {

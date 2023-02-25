@@ -166,7 +166,7 @@
         </div>
         <!-- /.header-content -->
         <!-- Основной блок слайдера -->
-        <?php include_once('./template-parts/features.php');?>
+        <?php $features_style = 'header-features-text'; include_once('./template-parts/features.php');?>
       </div>
       <!-- /.container -->
     </header>
