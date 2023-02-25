@@ -18,7 +18,7 @@
               <svg width="36" height="36">
                 <use href="img/sprite.svg#control"></use>
               </svg>
-              <p class=" header-features-text<?= $features_style; ?>">
+              <p class="header-features-text <?= $features_style; ?>">
                 Контроль качества на всех этапах
               </p>
             </li>
