@@ -241,6 +241,10 @@ body {
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 
+.fatures-item-gray {
+  border-color: #ebebf0;
+}
+
 .slider-buttons {
   display: none;
   height: 44px;
@@ -1180,6 +1184,74 @@ body {
   width: 100%;
   padding: 1.25rem;
   font-size: 0.875rem;
+}
+
+.section-annotation {
+  margin-bottom: 6.25rem;
+}
+
+.section-annotation-wrapper {
+  display: flex;
+  gap: 7.5rem;
+}
+
+.section-annotation-image {
+  width: 30rem;
+  height: 30rem;
+}
+
+.section-annotation-content {
+  max-width: 52.5rem;
+  margin-top: 50px;
+}
+
+.section-annotation-title {
+  max-width: 37.5rem;
+}
+
+.section-annotation-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.manufacture-wrapper {
+  display: flex;
+  gap: 7.5rem;
+}
+
+.manufacture-content {
+  margin-top: 50px;
+  max-width: 720px;
+}
+
+.manufacture-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.manufacture-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.manufacture-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  padding-bottom: 1.25rem;
 }
 
 @media (max-width: 1700px) {
