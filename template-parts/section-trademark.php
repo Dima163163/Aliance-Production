@@ -18,7 +18,7 @@
               обществом задач.
             </p>
           </a>
-          <a href="./avtohim-ap.php" class="treademark-card">
+          <a href="./avtohim.php" class="treademark-card">
             <svg class="treademark-card-logo">
               <use href="img/sprite.svg#AP"></use>
             </svg>

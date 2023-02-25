@@ -143,6 +143,11 @@
     </nav>
     <!-- /.navbar -->
     <header class="page-header <?= $header_style; ?>">
+    <?php
+    if (!empty($block_image)) {
+      echo ''.$block_image.'';
+    }
+    ?>
     <div class="page-header-wrapper">
       <div class="container">
         <div class="seporator"></div>
