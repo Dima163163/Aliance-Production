@@ -43,12 +43,12 @@
           <!-- Кнопки навигации вперед/назад -->
           <div class="steps-buttons primary-buttons-wrapper">
             <div class="steps-button-prev primary-button-prev">
-              <svg width="30" height="20">
+              <svg  class="<?= $button_arrow; ?>" width="30" height="20">
                 <use href="img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
             <div class="steps-button-next primary-button-next">
-              <svg width="30" height="20">
+              <svg class="<?= $button_arrow; ?>" width="30" height="20">
                 <use href="img/sprite.svg#arrow-next"></use>
               </svg>
             </div>

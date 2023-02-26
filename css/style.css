@@ -379,6 +379,10 @@ body {
   align-items: center;
 }
 
+.slider-button-grey {
+  border-color: #ebebf0;
+}
+
 .primary-button-prev,
 .primary-button-next {
   height: 100%;
@@ -388,6 +392,14 @@ body {
   width: 5rem;
   cursor: pointer;
   background-color: #3a71d1;
+}
+
+.button-arrow {
+  fill: #ffffff;
+}
+
+.button-arrow-black {
+  fill: #292d33;
 }
 
 .cards {
@@ -1585,6 +1597,9 @@ body {
   }
   .section-annotation-wrapper {
     flex-wrap: wrap;
+  }
+  .section-annotation-content {
+    max-width: 100%;
   }
   .section-annotation-image {
     width: 100%;

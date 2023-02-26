@@ -15,6 +15,7 @@
 		<?php 
 		$features_style = 'features-text-black'; 
 		$features_item = 'fatures-item-gray';
+		$button_arrow = 'button-arrow-black';
 		 include_once('./template-parts/features.php');?>
 	</div>
 </section>

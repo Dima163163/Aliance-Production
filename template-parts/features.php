@@ -39,13 +39,13 @@
           </ul>
           <!-- Кнопки навигации вперед/назад-->
           <div class="slider-buttons">
-            <div class="slider-button-prev">
-              <svg width="36" height="24">
+            <div class="slider-button-prev <?= $slider_button_style; ?>">
+              <svg class="<?= $button_arrow; ?>" width="36" height="24">
                 <use href="img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
-            <div class="slider-button-next">
-              <svg width="36" height="24">
+            <div class="slider-button-next <?= $slider_button_style; ?>">
+              <svg class="<?= $button_arrow; ?>" width="36" height="24">
                 <use href="img/sprite.svg#arrow-next"></use>
               </svg>
             </div>
