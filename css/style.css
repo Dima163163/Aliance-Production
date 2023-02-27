@@ -6,6 +6,7 @@
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 
@@ -635,6 +636,11 @@ body {
   transition: filter 0.3s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+.clients-logo-img {
+  width: 100%;
+  height: 100%;
 }
 
 .section-blog {

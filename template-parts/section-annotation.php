@@ -1,7 +1,11 @@
 <section class="section section-annotation">
 	<div class="container">
 		<div class="section-annotation-wrapper">
-			<img class="section-annotation-image" src="./img/group.png" alt="group">
+			<picture class="section-annotation-image">
+        <source type="image/webp" srcset="./img/group.webp">
+        <source type="image/png" srcset="./img/group.png">
+        <img src="./img/group.png" alt="group">
+      </picture>
 			<div class="section-annotation-content">
 				<div class="seporator"></div>
             <h2 class="section-title section-annotation-title">

@@ -45,8 +45,8 @@
               </p>
             </div>
             <img
-              src="img/dezinfect-1.png"
-              alt="dezinfect-1"
+              src="img/dezinfect.png"
+              alt="dezinfect"
               class="card-image"
             />
           </a>
@@ -58,7 +58,7 @@
               </p>
             </div>
             <img
-              src="img/cosmetic-him.png"
+              src="img/avto-him.png"
               alt="cosmetic-him"
               class="card-image"
             />
@@ -71,7 +71,7 @@
                 нанотехнологии функционально разнесены на независимые элементы.
               </p>
             </div>
-            <img src="img/bit-him-1.png" alt="bit-him-1" class="card-image" />
+            <img src="img/bit-him.png" alt="bit-him" class="card-image" />
           </a>
         </div>
         <!-- /.cards -->

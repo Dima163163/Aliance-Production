@@ -78,13 +78,13 @@
       </div>
       <!-- /.mobile-info -->
       <div class="social-info">
-        <a class="vk-info">
+        <a href="#" class="social-info-vk">
           <svg class="phone-icon" width="24" height="24">
             <use href="img/sprite.svg#vk"></use>
           </svg>
         </a>
         <!-- /.vk-info -->
-        <a class="instagram-info">
+        <a href="#" class="social-info-instagram">
           <svg class="phone-icon" width="24" height="24">
             <use href="img/sprite.svg#instagram"></use>
           </svg>

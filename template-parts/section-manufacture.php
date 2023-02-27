@@ -51,7 +51,11 @@
               </li>
             </ul>
 			</div>
-      <img class="manufacture-image" src="./img/manufacture.png" alt="manufacture">
+      <picture class="manufacture-image">
+        <source type="image/webp" srcset="./img/manufacture.webp">
+        <source type="image/png" srcset="./img/manufacture.png">
+        <img src="./img/manufacture.png" alt="manufacture">
+      </picture>
 		</div>
 	</div>
 </section>
