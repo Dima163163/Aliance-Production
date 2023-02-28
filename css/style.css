@@ -539,10 +539,14 @@ body {
 .founder-photo {
   position: absolute;
   left: 0;
-  width: 44%;
+  max-width: 44%;
   top: 18px;
   height: 100%;
   object-fit: cover;
+}
+
+.founder-photo-img {
+  width: 100%;
 }
 
 .founder-content {
@@ -555,7 +559,7 @@ body {
   justify-content: flex-end;
 }
 
-.founder-section-title {
+.founder-title {
   margin-bottom: 1.375rem;
 }
 
@@ -681,6 +685,11 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -2;
+}
+
+.blog-card-image-jpg {
+  width: 100%;
+  height: 100%;
 }
 
 .blog-card-title {
@@ -1277,6 +1286,40 @@ body {
   width: 37.5rem;
 }
 
+.research-title {
+  max-width: 37.5rem;
+}
+
+.research-wrapper-text {
+  display: flex;
+  gap: 6.25rem;
+}
+
+.research-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.research-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+
+.research-card {
+  min-height: 25rem;
+  max-width: 44.0625rem;
+}
+
+.research-card-image-jpg {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 1750px) {
   .header-nav-item:not(:last-child) {
     margin-right: 2.25rem;
@@ -1713,11 +1756,6 @@ body {
   .treademark-cards {
     margin-top: 28px;
   }
-  /* .founder-photo {
-    position: relative;
-    width: 100%;
-    margin-bottom: 44px;
-  } */
   .footer-bottom {
     justify-content: center;
     flex-wrap: wrap;
@@ -1791,7 +1829,7 @@ body {
   .founder-content-wrapper {
     margin-top: 10px;
   }
-  .founder-section-title {
+  .founder-title {
     margin-bottom: 0;
   }
   .founder-text {

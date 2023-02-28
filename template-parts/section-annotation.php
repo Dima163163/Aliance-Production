@@ -4,7 +4,7 @@
 			<picture class="section-annotation-image">
         <source type="image/webp" srcset="./img/group.webp">
         <source type="image/png" srcset="./img/group.png">
-        <img src="./img/group.png" alt="group" class="section-annotation-image">>
+        <img src="./img/group.png" alt="group" class="section-annotation-image">
       </picture>
 			<div class="section-annotation-content">
 				<div class="seporator"></div>

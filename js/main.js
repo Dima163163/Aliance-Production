@@ -133,6 +133,45 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+const swiperResearch = new Swiper(".research-slider", {
+  speed: 400,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    nextEl: ".research-button-next",
+    prevEl: ".research-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 3,
+      centeredSlides: true,
+      slidesOffsetBefore: -450,
+    },
+  },
+});
+
 let currentModal; // текущее модальное окно
 let modalDialog; // белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); // окно с предупреждением

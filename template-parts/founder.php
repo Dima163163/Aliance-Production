@@ -2,13 +2,13 @@
       <picture class="founder-photo">
         <source type="image/webp" srcset="img/founder.webp">
         <source type="image/jpeg" srcset="img/founder.jpg">
-        <img src="img/founder.jpg" alt="founder" class="founder-photo">
+        <img src="img/founder.jpg" alt="founder" class="founder-photo-img">
       </picture>
       <div class="container container-founder">
         <div class="founder-content-wrapper">
           <div class="founder-content">
             <div class="seporator"></div>
-            <h2 class="section-title founder-section-title">
+            <h2 class="section-title founder-title">
               Отношение к делу и к клиентам
             </h2>
             <p class="founder-text">
