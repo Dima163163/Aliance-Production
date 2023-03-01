@@ -51,7 +51,7 @@
               </li>
             </ul>
 			</div>
-      <picture class="manufacture-image">
+      <picture>
         <source type="image/webp" srcset="./img/manufacture.webp">
         <source type="image/png" srcset="./img/manufacture.png">
         <img src="./img/manufacture.png" alt="manufacture" class="manufacture-image">

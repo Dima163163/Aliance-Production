@@ -1,7 +1,7 @@
 <section class="section section-annotation">
 	<div class="container">
 		<div class="section-annotation-wrapper">
-			<picture class="section-annotation-image">
+			<picture>
         <source type="image/webp" srcset="./img/group.webp">
         <source type="image/png" srcset="./img/group.png">
         <img src="./img/group.png" alt="group" class="section-annotation-image">

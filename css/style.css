@@ -1,3 +1,7 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
+
 * {
   box-sizing: border-box;
 }
@@ -76,8 +80,12 @@ body {
   padding-top: 5.875rem;
 }
 
-.header-image {
+.no-webp .header-image {
   background-image: url("../img/header-bg.jpeg");
+}
+
+.header-image {
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -3.4375rem;
@@ -545,10 +553,6 @@ body {
   object-fit: cover;
 }
 
-.founder-photo-img {
-  width: 100%;
-}
-
 .founder-content {
   max-width: 45rem;
   margin-top: 4.125rem;
@@ -642,11 +646,6 @@ body {
   filter: grayscale(0%);
 }
 
-.clients-logo-img {
-  width: 100%;
-  height: 100%;
-}
-
 .section-blog {
   margin-bottom: 13.875rem;
 }
@@ -685,11 +684,6 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -2;
-}
-
-.blog-card-image-jpg {
-  width: 100%;
-  height: 100%;
 }
 
 .blog-card-title {
@@ -1662,7 +1656,7 @@ body {
   }
   .founder-photo {
     position: relative;
-    width: 100%;
+    min-width: 100%;
     margin-bottom: 44px;
   }
   .founder-content-wrapper {
