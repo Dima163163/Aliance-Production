@@ -1661,7 +1661,8 @@ body {
   }
   .manufacture-image {
     max-width: 100%;
-    min-height: 100%;
+    object-fit: cover;
+  }
   }
   .founder-photo {
     position: relative;
@@ -2086,5 +2087,9 @@ body {
   }
   .notify {
     gap: 10px;
+  }
+  .manufacture-image {
+    max-height: 430px;
+    max-width: 345px;
   }
 }
