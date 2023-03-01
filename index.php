@@ -167,7 +167,9 @@
     </header>
     <?php include_once('./template-parts/section-light.php');?>
     <?php $block_title = "контрактное производство"; include_once('./template-parts/section-production.php');?>
-    <?php $block_title = "собственные торговые марки"; include_once('./template-parts/section-trademark.php');?>
+    <?php
+    $block_title = "собственные торговые марки";
+    include_once('./template-parts/section-trademark.php');?>
     <?php include_once('./template-parts/founder.php');?>
     <?php include_once('./template-parts/clients.php');?>
     <?php $blog_title = 'Блог экспертов в области производства'; include_once('./template-parts/section-blog.php');?>
