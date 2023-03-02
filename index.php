@@ -170,7 +170,9 @@
     <?php
     $block_title = "собственные торговые марки";
     include_once('./template-parts/section-trademark.php');?>
-    <?php include_once('./template-parts/founder.php');?>
+    <?php 
+    $founder_foto='founder-photo';
+    include_once('./template-parts/founder.php');?>
     <?php include_once('./template-parts/clients.php');?>
     <?php $blog_title = 'Блог экспертов в области производства'; include_once('./template-parts/section-blog.php');?>
     <?php include_once('./template-parts/footer.php');?>

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="manufacture-wrapper">
 			<div class="manufacture-content">
-				<div class="seporator"></div>
+				<div class="seporator seporator-desktop"></div>
             <h2 class="section-title manufacture-title">
               Наше производство
             </h2>
@@ -51,11 +51,17 @@
               </li>
             </ul>
 			</div>
-      <picture>
-        <source type="image/webp" srcset="./img/manufacture.webp">
-        <source type="image/png" srcset="./img/manufacture.png">
-        <img src="./img/manufacture.png" width="600" height="750" alt="manufacture" class="manufacture-image">
-      </picture>
+      <div class="manufacture-img-block">
+          <div class="seporator seporator-mobile"></div>
+          <h2 class="section-title manufacture-title-mobile">
+            Наше производство
+          </h2>
+          <picture>
+            <source type="image/webp" srcset="./img/manufacture.webp">
+            <source type="image/png" srcset="./img/manufacture.png">
+            <img src="./img/manufacture.png" width="600" height="750" alt="manufacture" class="manufacture-image">
+          </picture>
+      </div>
 		</div>
 	</div>
 </section>

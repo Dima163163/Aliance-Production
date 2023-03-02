@@ -6,7 +6,9 @@ include_once('./template-parts/header-page.php');?>
 $slider_button_style = 'slider-button-grey'; 
 include_once('./template-parts/section-annotation.php');?>
 <?php include_once('./template-parts/section-manufacture.php');?>
-<?php include_once('./template-parts/founder.php');?>
+<?php
+$founder_foto='founder-photo-about';
+include_once('./template-parts/founder.php');?>
 <?php
 $button_arrow = "button-arrow"; 
 include_once('./template-parts/section-research.php');?>

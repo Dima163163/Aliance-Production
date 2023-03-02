@@ -1,10 +1,10 @@
 <section class="section section-annotation">
 	<div class="container">
 		<div class="section-annotation-wrapper">
-			<picture>
+			<picture class="annotation-img-block">
         <source type="image/webp" srcset="./img/group.webp">
         <source type="image/png" srcset="./img/group.png">
-        <img src="./img/group.png" width="480" height="480" alt="group" class="section-annotation-image">
+        <img src="./img/group.png" width="480" height="480" alt="group" class="annotation-image">
       </picture>
 			<div class="section-annotation-content">
 				<div class="seporator"></div>

@@ -146,6 +146,7 @@ const swiperResearch = new Swiper(".research-slider", {
     // when window width is >= 320px
     320: {
       slidesPerView: 1,
+      slidesOffsetBefore: 65,
     },
     // when window width is >= 576px
     576: {

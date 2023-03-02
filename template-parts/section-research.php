@@ -35,7 +35,6 @@
                 <img src="img/blog/blog-post.jpg" width="705" heigt="400" alt="blog" class="research-card-image-jpg">
               </picture>
             </div>
-						
             <div class="swiper-slide research-card">
               <picture>
                 <source type="image/webp" srcset="img/blog/blog-photo.webp">
@@ -43,7 +42,6 @@
                 <img src="img/blog/blog-photo.jpg" width="705" heigt="400" alt="blog" class="research-card-image-jpg">
               </picture>
             </div>
-						
             <div class="swiper-slide research-card">
               <picture>
                 <source type="image/webp" srcset="img/blog/blog-post.webp">
