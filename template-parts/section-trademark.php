@@ -6,6 +6,7 @@
           echo '<h2 class="section-title section-treademark-title">'. $block_title .'</h2>';
         }
         ?>
+        <h2 class="section-title section-treademark-title-mobil">собственные марки</h2>
         <div class="treademark-cards">
           <a href="./avtohim-agtech.php" class="treademark-card">
             <svg class="treademark-card-logo">

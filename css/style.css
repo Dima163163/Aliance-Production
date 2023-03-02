@@ -471,6 +471,10 @@ body {
   margin-top: 8.25rem;
 }
 
+.section-treademark-title-mobil {
+  display: none;
+}
+
 .treademark-cards {
   display: flex;
   margin-top: 3.25rem;
@@ -1663,11 +1667,10 @@ body {
     max-width: 100%;
     object-fit: cover;
   }
-  }
   .founder-photo {
     position: relative;
     min-width: 100%;
-    margin-bottom: 44px;
+    margin-bottom: 54px;
   }
   .founder-content-wrapper {
     display: block;
@@ -1797,6 +1800,13 @@ body {
   .section-production-title {
     letter-spacing: 0.2px;
   }
+  .section-treademark-title {
+    display: none;
+  }
+  .section-treademark-title-mobil {
+    display: block;
+    letter-spacing: 0.3px;
+  }
   .section-treademark {
     margin-top: 88px;
   }
@@ -1830,7 +1840,7 @@ body {
     margin-top: 82px;
   }
   .container-founder {
-    max-width: 90%;
+    max-width: 92%;
   }
   .founder-content {
     margin-top: 10px;
@@ -1844,7 +1854,6 @@ body {
   .founder-text {
     margin-top: 10px;
     margin-bottom: 12px;
-    word-spacing: -1px;
     font-size: 14px;
     line-height: 156%;
   }

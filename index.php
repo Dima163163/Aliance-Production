@@ -174,3 +174,4 @@
     <?php include_once('./template-parts/clients.php');?>
     <?php $blog_title = 'Блог экспертов в области производства'; include_once('./template-parts/section-blog.php');?>
     <?php include_once('./template-parts/footer.php');?>
+
