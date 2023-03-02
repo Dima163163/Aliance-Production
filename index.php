@@ -53,7 +53,7 @@
           <a href="./contacts.php" class="mobile-menu-link">Контакты</a>
         </li>
       </ul>
-      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+      <a href="tel:+79996861014" class="mobile-phone">+7 (999) 686-10-14</a>
       <div class="mobile-info">
         <svg class="phone-icon" width="24" height="24">
           <use href="img/sprite.svg#map"></use>
@@ -126,8 +126,8 @@
         <svg class="phone-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>
-        <a href="tel:+74996861014" class="header-phone-link"
-          >+7 (499) 686-10-14</a
+        <a href="tel:+79996861014" class="header-phone-link"
+          >+7 (999) 686-10-14</a
         >
       </div>
       <!-- /.header-phone -->

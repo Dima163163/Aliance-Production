@@ -14,7 +14,7 @@
             </p>
 						<ul class="manufacture-list">
               <li class="manufacture-list-item">
-                <svg width="30" height="30" class="manufacture-list-icon">
+                <svg width="30" height="26" class="manufacture-list-icon">
                   <use href="img/sprite.svg#auto-chemistry"></use>
                 </svg>
                 Автомобильная химия
@@ -26,7 +26,7 @@
                 Бытовая химия
               </li>
               <li class="manufacture-list-item">
-                <svg width="30" height="30" class="manufacture-list-icon">
+                <svg width="30" height="26" class="manufacture-list-icon">
                   <use href="img/sprite.svg#desinfectans"></use>
                 </svg>
                 Дезенфицирующие средства
@@ -44,7 +44,7 @@
                 Косметическая продукция
               </li>
               <li class="manufacture-list-item">
-                <svg width="30" height="30" class="manufacture-list-icon">
+                <svg width="26" height="26" class="manufacture-list-icon">
                   <use href="img/sprite.svg#spray-paints"></use>
                 </svg>
                 Краски аэрозольные

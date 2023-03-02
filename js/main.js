@@ -167,7 +167,7 @@ const swiperResearch = new Swiper(".research-slider", {
     1200: {
       slidesPerView: 3,
       centeredSlides: true,
-      slidesOffsetBefore: -450,
+      slidesOffsetBefore: 70,
     },
   },
 });

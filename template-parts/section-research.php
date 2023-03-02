@@ -21,26 +21,36 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper research-wrapper">
             <!-- Slides -->
-            <picture class="swiper-slide research-card">
-              <source type="image/webp" srcset="img/blog/blog-photo.webp">
-              <source type="image/jpg" srcset="img/blog/blog-photo.jpg">
-              <img src="img/blog/blog-photo.jpg" alt="blog" class="research-card-image-jpg">
-            </picture>
-						<picture class="swiper-slide research-card">
-              <source type="image/webp" srcset="img/blog/blog-post.webp">
-              <source type="image/jpg" srcset="img/blog/blog-post.jpg">
-              <img src="img/blog/blog-post.jpg" alt="blog" class="research-card-image-jpg">
-            </picture>
-						<picture class="swiper-slide research-card">
-              <source type="image/webp" srcset="img/blog/blog-photo.webp">
-              <source type="image/jpg" srcset="img/blog/blog-photo.jpg">
-              <img src="img/blog/blog-photo.jpg" alt="blog" class="research-card-image-jpg">
-            </picture>
-						<picture class="swiper-slide research-card">
-              <source type="image/webp" srcset="img/blog/blog-post.webp">
-              <source type="image/jpg" srcset="img/blog/blog-post.jpg">
-              <img src="img/blog/blog-post.jpg" alt="blog" class="research-card-image-jpg">
-            </picture>
+            <div class="swiper-slide research-card">
+              <picture>
+                <source type="image/webp" srcset="img/blog/blog-photo.webp">
+                <source type="image/jpg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" width="705" heigt="400" alt="blog" class="research-card-image-jpg">
+              </picture>
+            </div>
+            <div class="swiper-slide research-card">
+              <picture>
+                <source type="image/webp" srcset="img/blog/blog-post.webp">
+                <source type="image/jpg" srcset="img/blog/blog-post.jpg">
+                <img src="img/blog/blog-post.jpg" width="705" heigt="400" alt="blog" class="research-card-image-jpg">
+              </picture>
+            </div>
+						
+            <div class="swiper-slide research-card">
+              <picture>
+                <source type="image/webp" srcset="img/blog/blog-photo.webp">
+                <source type="image/jpg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" width="705" heigt="400" alt="blog" class="research-card-image-jpg">
+              </picture>
+            </div>
+						
+            <div class="swiper-slide research-card">
+              <picture>
+                <source type="image/webp" srcset="img/blog/blog-post.webp">
+                <source type="image/jpg" srcset="img/blog/blog-post.jpg">
+                <img src="img/blog/blog-post.jpg" width="705" heigt="400" alt="blog" class="research-card-image-jpg">
+              </picture>
+            </div>
           </div>
 					<div class="research-slider-footer container">
             <!-- Кнопки навигации вперед/назад -->
