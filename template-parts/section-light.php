@@ -10,7 +10,7 @@
             <li class="swiper-slide steps-item">
               <span class="steps-num">01</span>
               <h3 class="steps-title">Знакомство</h3>
-              <p class="steps-text">
+              <p class="text steps-text">
                 Безусловно, сплочённость команды профессионалов позволяет
                 оценить значение форм воздействия.
               </p>
@@ -19,14 +19,14 @@
             <li class="swiper-slide steps-item">
               <span class="steps-num">02</span>
               <h3 class="steps-title">Заключение договора</h3>
-              <p class="steps-text">
+              <p class="text steps-text">
                 Лишь интерактивные прототипы призваны к ответу.
               </p>
             </li>
             <li class="swiper-slide steps-item">
               <span class="steps-num">03</span>
               <h3 class="steps-title">Производство</h3>
-              <p class="steps-text">
+              <p class="text steps-text">
                 А также стремящиеся вытеснить традиционное производство,
                 нанотехнологии функционально разнесены на независимые элементы.
               </p>
@@ -34,7 +34,7 @@
             <li class="swiper-slide steps-item">
               <span class="steps-num">04</span>
               <h3 class="steps-title">Доставка</h3>
-              <p class="steps-text">
+              <p class="text steps-text">
                 В частности, экономическая повестка сегодняшнего дня говорит о
                 возможностях приоритизации разума над эмоциями.
               </p>
