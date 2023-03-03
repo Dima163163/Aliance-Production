@@ -8,6 +8,8 @@ include_once('./template-parts/section-annotation.php');?>
 <?php include_once('./template-parts/section-manufacture.php');?>
 <?php
 $founder_foto='founder-photo-about';
+$founder_button_text="О нашей миссии";
+$founder_button_style='button-link-about';
 include_once('./template-parts/founder.php');?>
 <?php
 $button_arrow = "button-arrow"; 

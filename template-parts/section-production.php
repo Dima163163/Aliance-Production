@@ -1,4 +1,4 @@
-<section class="section section-production">
+<section class="section <?= $section_prod_style; ?>">
       <div class="container">
         <?php 
         if (!empty($block_title)) {

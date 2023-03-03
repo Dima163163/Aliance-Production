@@ -29,7 +29,7 @@
               инновационный путь в значительной степени обусловливает важность
               дальнейших направлений развития.
             </p>
-            <a href="./about.php" class="button-link">Подробнее о компании</a>
+            <a href="./about.php" class="<?= $founder_button_style; ?>"><?= $founder_button_text; ?></a>
           </div>
           <!-- /.founder-content -->
         </div>
