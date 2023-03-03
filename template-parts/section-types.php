@@ -12,26 +12,26 @@
 			</div>
 			<div class="types-bottom">
 				<ul class="types-list">
-          <li class="types-list-item">Антискотч</li>
-					<li class="types-list-item">Многоцелевая смазка</li>
-					<li class="types-list-item">Жидкий ключ</li>
-					<li class="types-list-item">Высокотемпературная смазка</li>
-					<li class="types-list-item">Универсальный отчиститель деталей</li>
-					<li class="types-list-item">Силиконовая смазка</li>
-					<li class="types-list-item">Цепная смазка</li>
-					<li class="types-list-item">Медная смазка</li>
-					<li class="types-list-item">Графитовая сазка</li>
-					<li class="types-list-item">Очиститель кондиционера пенный</li>
-					<li class="types-list-item">Очиститель тормозных дисков</li>
-					<li class="types-list-item">Очиститель битумных пятен</li>
-					<li class="types-list-item">Очиститель кондиционера</li>
-					<li class="types-list-item">Очиститель дроссельной заслонки</li>
-					<li class="types-list-item">Очиститель обивки</li>
-					<li class="types-list-item">Тефлоновая смазка</li>
-					<li class="types-list-item">Очиститель двигателя</li>
-					<li class="types-list-item">Универсальный очиститель</li>
-					<li class="types-list-item">Чернитель шин</li>
-					<li class="types-list-item">Чернитель шин + очистка</li>
+          <li class="types-list-item"><p class="types-list-item-text">Антискотч</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Многоцелевая смазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Жидкий ключ</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Высокотемпературная смазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Универсальный отчиститель деталей</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Силиконовая смазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Цепная смазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Медная смазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Графитовая сазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель кондиционера пенный</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель тормозных дисков</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель битумных пятен</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель кондиционера</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель дроссельной заслонки</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель обивки</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Тефлоновая смазка</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Очиститель двигателя</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Универсальный очиститель</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Чернитель шин</p></li>
+					<li class="types-list-item"><p class="types-list-item-text">Чернитель шин + очистка</p></li>
 				</ul>
 			</div>
 		</div>

@@ -35,7 +35,7 @@
                 Актуальные цены
           </li>
           <li class="making-list-item">
-                <svg width="30" height="30" class="making-list-icon">
+                <svg width="20" height="30" class="making-list-icon">
                   <use href="img/sprite.svg#spray-paints"></use>
                 </svg>
                 Лаки и краски
@@ -47,7 +47,7 @@
                 Химические производства
           </li>
           <li class="making-list-item">
-                <svg width="30" height="30" class="making-list-icon">
+                <svg width="20" height="30" class="making-list-icon">
                   <use href="img/sprite.svg#spray-paints"></use>
                 </svg>
                 Лаки и краски
