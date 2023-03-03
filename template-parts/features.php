@@ -6,19 +6,19 @@
               <svg width="36" height="36">
                 <use href="img/sprite.svg#time"></use>
               </svg>
-              <p class="text header-features-text <?= $features_style; ?>">Непрерывная работа c 2017 года</p>
+              <p class="header-features-text <?= $features_style; ?>">Непрерывная работа c 2017 года</p>
             </li>
             <li class="swiper-slide header-features-item <?= $features_item; ?>">
               <svg width="36" height="36">
                 <use href="img/sprite.svg#cirtificate"></use>
               </svg>
-              <p class="text header-features-text <?= $features_style; ?>">Вся продукция сертифицирована</p>
+              <p class="header-features-text <?= $features_style; ?>">Вся продукция сертифицирована</p>
             </li>
             <li class="swiper-slide header-features-item <?= $features_item; ?>">
               <svg width="36" height="36">
                 <use href="img/sprite.svg#control"></use>
               </svg>
-              <p class="text header-features-text <?= $features_style; ?>">
+              <p class="header-features-text <?= $features_style; ?>">
                 Контроль качества на всех этапах
               </p>
             </li>
@@ -26,7 +26,7 @@
               <svg width="36" height="36">
                 <use href="img/sprite.svg#delivery"></use>
               </svg>
-              <p class="text header-features-text <?= $features_style; ?>">
+              <p class="header-features-text <?= $features_style; ?>">
                 Возможны поставки по всей России
               </p>
             </li>
@@ -34,7 +34,7 @@
               <svg width="36" height="36">
                 <use href="img/sprite.svg#speed"></use>
               </svg>
-              <p class="text header-features-text <?= $features_style; ?>">Оперативное производство</p>
+              <p class="header-features-text <?= $features_style; ?>">Оперативное производство</p>
             </li>
           </ul>
           <!-- Кнопки навигации вперед/назад-->
