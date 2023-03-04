@@ -1,4 +1,4 @@
-<section class="section section-research">
+<section class="section <?= $research_style; ?>">
 	<div class="container">
 		<div class="section-research-content">
 			<div class="seporator"></div>

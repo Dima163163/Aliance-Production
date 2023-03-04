@@ -14,9 +14,11 @@ include_once('./template-parts/header-page.php');?>
 <?php include_once('./template-parts/section-types.php');?>
 <?php
 $button_arrow = "button-arrow"; 
+$research_style = "section-research-avtohim";
 include_once('./template-parts/section-research.php');?>
 <?php
 $button_arrow = 'button-arrow';
+$steps_style = 'steps-avtohim';
 include_once('./template-parts/section-light.php');?>
 <?php include_once('./template-parts/clients.php');?>
 <?php include_once('./template-parts/footer.php');?>

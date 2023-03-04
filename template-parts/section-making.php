@@ -36,7 +36,7 @@
           </li>
           <li class="making-list-item">
                 <svg width="20" height="30" class="making-list-icon">
-                  <use href="img/sprite.svg#spray-paints"></use>
+                  <use href="img/sprite.svg#color"></use>
                 </svg>
                 Лаки и краски
           </li>
@@ -48,7 +48,7 @@
           </li>
           <li class="making-list-item">
                 <svg width="20" height="30" class="making-list-icon">
-                  <use href="img/sprite.svg#spray-paints"></use>
+                  <use href="img/sprite.svg#color"></use>
                 </svg>
                 Лаки и краски
           </li>
@@ -62,11 +62,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="making-image-block">
 		<picture>
       <source type="image/webp" srcset="./img/making.webp">
       <source type="image/png" srcset="./img/making.png">
       <img src="./img/making.png" width="840" height="480" alt="Изготовление автохимии" class="making-img">
-      </picture>
-	</div>
+    </picture>
 </section>

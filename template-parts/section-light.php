@@ -5,7 +5,7 @@
         <!-- Основной блок слайдера -->
         <div class="swiper steps-slider">
           <!-- Обертка слайдера -->
-          <ol class="swiper-wrapper steps">
+          <ol class="swiper-wrapper <?= $steps_style; ?>">
             <!-- Слайды -->
             <li class="swiper-slide steps-item">
               <span class="steps-num">01</span>

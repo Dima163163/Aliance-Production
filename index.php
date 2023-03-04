@@ -165,7 +165,9 @@
       </div>
       <!-- /.container -->
     </header>
-    <?php include_once('./template-parts/section-light.php');?>
+    <?php
+    $steps_style = 'steps';
+    include_once('./template-parts/section-light.php');?>
     <?php 
     $block_title = "контрактное производство";
     $section_prod_style='section-production';
