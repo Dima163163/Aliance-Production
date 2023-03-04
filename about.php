@@ -16,4 +16,5 @@ $button_arrow = "button-arrow";
 $research_style = 'section-research';
 include_once('./template-parts/section-research.php');?>
 <?php include_once('./template-parts/clients.php');?>
+<?php include_once('./template-parts/section-cta.php');?>
 <?php include_once('./template-parts/footer.php');?>

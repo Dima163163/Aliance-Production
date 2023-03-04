@@ -188,5 +188,6 @@
     $button_link = "Весь блог";
     // $blog_slider_style = 'blog-slider-footer';
     include_once('./template-parts/section-blog.php');?>
+    <?php include_once('./template-parts/section-cta.php');?>
     <?php include_once('./template-parts/footer.php');?>
 

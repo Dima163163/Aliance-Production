@@ -5,4 +5,5 @@ include_once('./template-parts/header-page.php');?>
 <?php
 $treadmark_style = 'section-treademark-page';
 include_once('./template-parts/section-trademark.php'); ?>
+<?php include_once('./template-parts/section-cta.php');?>
 <?php include_once('./template-parts/footer.php');?>

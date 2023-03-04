@@ -9,4 +9,5 @@ $button_arrow = 'button-arrow';
 $section_blog_style ='section-blog-page';
 $blog_slider_style = 'blog-slider-footer-page';
 include_once('./template-parts/section-blog.php');?>
+<?php include_once('./template-parts/section-cta.php');?>
 <?php include_once('./template-parts/footer.php');?>

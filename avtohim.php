@@ -21,4 +21,5 @@ $button_arrow = 'button-arrow';
 $steps_style = 'steps-avtohim';
 include_once('./template-parts/section-light.php');?>
 <?php include_once('./template-parts/clients.php');?>
+<?php include_once('./template-parts/section-cta.php');?>
 <?php include_once('./template-parts/footer.php');?>
