@@ -1,4 +1,4 @@
-<section class="section section-blog">
+<section class="section <?= $section_blog_style; ?>">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title blog-section-title">
@@ -55,8 +55,12 @@
               </p>
             </a>
           </div>
-          <div class="blog-slider-footer">
-            <a href="./blog.php" class="button-link">Весь блог</a>
+          <div class="blog-slider-footer <?= $blog_slider_style; ?>">
+             <?php 
+              if (!empty($button_link)) {
+                echo '<a href="./blog.php" class="button-link">' . $button_link. '</a>';
+              }
+              ?>
             <!-- Кнопки навигации вперед/назад -->
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">

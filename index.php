@@ -174,6 +174,7 @@
     include_once('./template-parts/section-production.php');?>
     <?php
     $block_title = "собственные торговые марки";
+    $treadmark_style = 'section-treademark'; 
     include_once('./template-parts/section-trademark.php');?>
     <?php 
     $founder_foto='founder-photo';
@@ -181,6 +182,11 @@
     $founder_button_style='button-link';
     include_once('./template-parts/founder.php');?>
     <?php include_once('./template-parts/clients.php');?>
-    <?php $blog_title = 'Блог экспертов в области производства'; include_once('./template-parts/section-blog.php');?>
+    <?php
+    $blog_title = 'Блог экспертов в области производства';
+    $section_blog_style ='section-blog';
+    $button_link = "Весь блог";
+    // $blog_slider_style = 'blog-slider-footer';
+    include_once('./template-parts/section-blog.php');?>
     <?php include_once('./template-parts/footer.php');?>
 

@@ -5,6 +5,7 @@ $block_image = '<img class="page-header-image" src="./img/avto-him-header.png" a
 include_once('./template-parts/header-page.php');?>
 <?php
 $button_arrow = 'button-arrow';
+$steps_style = 'steps';
 include_once('./template-parts/section-light.php');?>
 <?php include_once('./template-parts/clients.php');?>
 <?php include_once('./template-parts/footer.php');?>

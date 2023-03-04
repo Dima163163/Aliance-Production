@@ -1,12 +1,12 @@
-<section class="section section-treademark">
+<section class="section <?= $treadmark_style; ?>">
       <div class="container">
         <?php 
         if (!empty($block_title)) {
           echo '<div class="seporator"></div>';
           echo '<h2 class="section-title section-treademark-title">'. $block_title .'</h2>';
+          echo '<h2 class="section-title section-treademark-title-mobil">собственные марки</h2>';
         }
         ?>
-        <h2 class="section-title section-treademark-title-mobil">собственные марки</h2>
         <div class="treademark-cards">
           <a href="./avtohim-agtech.php" class="treademark-card">
             <svg class="treademark-card-logo">
