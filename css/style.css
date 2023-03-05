@@ -1773,6 +1773,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 0;
+  opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
@@ -1823,6 +1824,9 @@ body {
     right: 42px;
     width: 40px;
     height: 40px;
+  }
+  .page-blog-card {
+    max-width: 48%;
   }
 }
 
@@ -2200,6 +2204,9 @@ body {
   }
   .blog-content-wrapper {
     flex-direction: column-reverse;
+  }
+  .page-blog-card {
+    max-width: 100%;
   }
 }
 

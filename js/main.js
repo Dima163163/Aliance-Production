@@ -185,12 +185,9 @@ const swiperPageBlog = new Swiper(".blog-slider-page", {
       return (
         ' <div class="box ' +
         className +
-        '">\
-          <div class="swiper-pagination-number">' +
+        '"> <div class="swiper-pagination-number">' +
         (index < 10 ? +(index + 1) : index + 1) +
-        "</div> " +
-        "</div>\
-          </div>"
+        "</div> </div>"
       );
     },
   },
