@@ -173,6 +173,57 @@ const swiperResearch = new Swiper(".research-slider", {
   },
 });
 
+const swiperPageBlog = new Swiper(".blog-slider-page", {
+  speed: 400,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  dots: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return (
+        ' <div class="box ' +
+        className +
+        '">\
+          <div class="swiper-pagination-number">' +
+        (index < 10 ? +(index + 1) : index + 1) +
+        "</div> " +
+        "</div>\
+          </div>"
+      );
+    },
+  },
+
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      slidesOffsetBefore: 65,
+    },
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 1,
+    },
+  },
+});
+
 let currentModal; // текущее модальное окно
 let modalDialog; // белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); // окно с предупреждением
