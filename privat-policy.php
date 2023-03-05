@@ -1,4 +1,5 @@
 <?php
+$title_head = 'Политика конфиденциальности';
 $page_title = 'Политика конфиденциальности';
 $header_style = 'page-header-bg-grey';
 $title_style = 'page-title-politic';

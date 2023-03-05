@@ -1,9 +1,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <svg class="logo-svg footer-logo">
-            <use href="img/sprite.svg#logo"></use>
-          </svg>
+          <a href="./" class="footer-logo">
+            <svg class="logo-svg footer-logo">
+              <use href="img/sprite.svg#logo"></use>
+            </svg>
+          </a>
           <a href="Tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
           <div class="footer-info">
             <svg class="adress-icon">
@@ -38,7 +40,7 @@
         </div>
         <!-- /.footer-top -->
       </div>
-      <hr color="#ebebf0" class="footer-seporator" />
+      <hr class="footer-seporator" />
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
@@ -103,7 +105,7 @@
         <!-- /.footer-bottom -->
       </div>
       <!-- /.container -->
-      <hr color="#ebebf0" class="footer-seporator" />
+      <hr class="footer-seporator" />
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-legal">

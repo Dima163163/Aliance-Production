@@ -1,4 +1,5 @@
 <?php
+$title_head = 'Автомобильная химия';
 $page_title = 'Автомобильная химия';
 $header_style = 'page-header-bg-grey-img';
 $block_image = '<div class="page-header-img>

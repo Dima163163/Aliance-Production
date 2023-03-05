@@ -1,6 +1,7 @@
 <?php
 $page_title = 'О компании';
 $header_style = 'page-header-bg-grey';
+$title_head = 'О компании';
 include_once('./template-parts/header-page.php');?>
 <?php 
 $slider_button_style = 'slider-button-grey'; 

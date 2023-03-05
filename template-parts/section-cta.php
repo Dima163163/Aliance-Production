@@ -45,7 +45,7 @@
             </div>
             <!-- /.input-group-wrapper -->
             <div class="cta-form-footer">
-              <button type="submit" class="button cta-form-button">
+              <button type="submit" class="button cta-form-button" data-toggle="modal" data-target="#alert-modal">
                 Отправить заявку
               </button>
               <div class="notify">

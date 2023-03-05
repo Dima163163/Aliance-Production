@@ -1,4 +1,5 @@
 <?php
+$title_head = 'Автомобильная химия AG-tech';
 $page_title = 'Автомобильная химия AG-tech';
 $header_style = 'page-header-bg-grey';
 $block_image = '<img class="page-header-image" src="./img/avto-him-header.png" alt="">';

@@ -1,4 +1,5 @@
 <?php
+$title_head = 'Современная методология разработки одухотворила всех причастных';
 $page_title = 'Современная методология разработки одухотворила всех причастных';
 $header_style = 'page-header-bg-image';
 include_once('./template-parts/header-page.php');?>

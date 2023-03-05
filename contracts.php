@@ -1,4 +1,5 @@
 <?php
+$title_head = 'Контрактное производство';
 $page_title = 'Контрактное производство';
 $header_style = 'page-header-bg-grey';
 include_once('./template-parts/header-page.php');
