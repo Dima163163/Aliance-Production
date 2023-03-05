@@ -1195,6 +1195,7 @@ body {
 
 .breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -1589,9 +1590,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.125rem;
-  height: 3.125rem;
-  padding: 0.875rem;
+  width: 50px;
+  height: 50px;
+  padding: 14px;
   border: 1px solid #ebebf0;
 }
 
@@ -1615,6 +1616,13 @@ body {
 .blog-content-plan-text {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.blog-content-photo {
+  height: 100%;
+  max-width: 100%;
+  aspect-ratio: 141/80;
+  overflow: hidden;
 }
 
 .blog-content-consultation-title {
@@ -1895,6 +1903,9 @@ body {
   .contract-img {
     max-width: 450px;
   }
+  .blog-content-wrapper {
+    gap: 50px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2128,6 +2139,9 @@ body {
   .contract-img {
     min-width: 100%;
     object-fit: cover;
+  }
+  .blog-content-wrapper {
+    flex-direction: column-reverse;
   }
 }
 
@@ -2813,5 +2827,79 @@ body {
   }
   .section-treademark-page {
     margin-top: 46px;
+  }
+  .page-header-bg-image {
+    padding-bottom: 76px;
+    background-image: url(../img/blog/blog-post-mobile.png);
+  }
+  .section-blog-content {
+    margin-top: 48px;
+  }
+  .blog-content-plan-title {
+    max-width: 330px;
+    line-height: 138%;
+    letter-spacing: 0.6px;
+  }
+  .blog-content-plan-text {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 157%;
+  }
+  .blog-content-consultation-title {
+    margin-top: 26px;
+    font-size: 20px;
+    line-height: 148%;
+    margin-bottom: 4px;
+  }
+  .blog-content-consultation-text {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 157%;
+  }
+  .blog-content-consultation-text-bottom {
+    margin-bottom: 28px;
+  }
+  .consultation-title {
+    font-size: 18px;
+    line-height: 140%;
+    margin-top: 26px;
+    margin-bottom: 16px;
+  }
+  .consultation-item {
+    gap: 18px;
+    margin-bottom: 8px;
+  }
+  .consultation-item-text {
+    font-size: 14px;
+  }
+  .content-active-title {
+    margin-top: 28px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 144%;
+  }
+  .content-active-text {
+    font-size: 14px;
+    line-height: 158%;
+    margin-top: 6px;
+    margin-bottom: 4px;
+  }
+  .active-list {
+    margin-top: 20px;
+    padding-left: 22px;
+  }
+  .active-item {
+    font-size: 14px;
+  }
+  .active-item-text {
+    padding-left: 12px;
+    font-size: 14px;
+  }
+  .blog-content-wrapper {
+    gap: 38px;
+  }
+  .content-social-text {
+    font-size: 14px;
   }
 }
