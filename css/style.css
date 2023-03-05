@@ -2902,4 +2902,21 @@ body {
   .content-social-text {
     font-size: 14px;
   }
+  .section-blog-page {
+    margin-bottom: 100px;
+  }
+  .politic-text {
+    line-height: 156%;
+    margin-bottom: 6px;
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .page-title-politic {
+    max-width: 92%;
+    word-break: break-word;
+  }
+  .section-politic {
+    margin-top: 50px;
+    margin-bottom: 104px;
+  }
 }

@@ -151,7 +151,7 @@
     <div class="page-header-wrapper">
       <div class="container">
         <div class="seporator"></div>
-          <h1 class="page-header-title"><?= $page_title ?></h1>
+          <h1 class="page-header-title <?= $title_style ?>"><?= $page_title ?></h1>
           <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="/index.html"
