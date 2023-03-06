@@ -1844,6 +1844,96 @@ body {
   color: #5c8ee6;
 }
 
+.page-header-agtech-img {
+  padding-top: 126px;
+  padding-bottom: 50px;
+  background-color: #f0f2f5;
+}
+
+.section-agtech {
+  margin-top: 100px;
+}
+
+.section-agtech-wrapper {
+  display: flex;
+  gap: 7.5rem;
+}
+
+.agtech-img {
+  aspect-ratio: 4/5;
+}
+
+.agtech-title {
+  margin-bottom: 1.375rem;
+}
+
+.agtech-text {
+  margin-bottom: 20px;
+  line-height: 162%;
+}
+
+.agtech-content {
+  margin-top: 3.125rem;
+}
+
+.section-distributor-wrapper {
+  padding-top: 100px;
+  max-width: 720px;
+}
+
+.section-distributor {
+  background-color: #f0f2f5;
+  position: relative;
+}
+
+.distributor-image {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.distributor-title {
+  margin-bottom: 8px;
+  letter-spacing: 0.6px;
+}
+
+.distributor-text {
+  margin-top: 20px;
+}
+
+.distributor-list {
+  gap: 10px;
+  list-style: none;
+  columns: 2;
+  padding-left: 0;
+  margin-top: 28px;
+}
+
+.distributor-list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.distributor-button {
+  display: inline-flex;
+  gap: 12px;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 24px 60px;
+  margin-bottom: 100px;
+}
+
+.distributor-list-item:nth-child(3) {
+  gap: 22px;
+}
+
+.distributor-list-item:nth-child(4) {
+  gap: 10px;
+}
+
 @media (max-width: 1750px) {
   .header-nav-item:not(:last-child) {
     margin-right: 2.25rem;
@@ -2069,6 +2159,20 @@ body {
   }
   .blog-content-wrapper {
     gap: 50px;
+  }
+  .agtech-img {
+    width: 100%;
+  }
+  .section-agtech-wrapper {
+    flex-direction: column;
+  }
+  .section-distributor-wrapper {
+    max-width: 100%;
+  }
+  .distributor-image {
+    position: relative;
+    display: block;
+    width: 100%;
   }
 }
 
@@ -2308,6 +2412,9 @@ body {
     flex-direction: column-reverse;
   }
   .page-blog-card {
+    min-width: 100%;
+  }
+  .agtech-img {
     min-width: 100%;
   }
 }
@@ -3131,5 +3238,63 @@ body {
   }
   .page-blog-card:nth-child(2) {
     order: -1;
+  }
+  .page-header-agtech-img {
+    padding-top: 104px;
+    padding-bottom: 80px;
+  }
+  .section-agtech {
+    margin-top: 50px;
+  }
+  .agtech-img {
+    max-height: 434px;
+  }
+  .section-agtech-wrapper {
+    gap: 0;
+  }
+  .agtech-content {
+    margin-top: 26px;
+  }
+  .agtech-title {
+    margin-bottom: 6px;
+  }
+  .agtech-text {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    line-height: 156%;
+    font-size: 14px;
+  }
+  .agtech-text-bottom {
+    line-height: 156%;
+    margin-bottom: 4px;
+  }
+  .section-distributor-wrapper {
+    padding-top: 50px;
+  }
+  .section-title {
+    margin-bottom: 4px;
+    letter-spacing: 0.3px;
+  }
+  .distributor-text {
+    margin-top: 8px;
+    line-height: 156%;
+    font-size: 14px;
+  }
+  .distributor-list {
+    columns: 1;
+    margin-bottom: 24px;
+  }
+  .distributor-list-item {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .distributor-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 24px 37px 24px 86px;
+    margin-bottom: 50px;
+  }
+  .clients-list {
+    margin-top: 26px;
   }
 }
