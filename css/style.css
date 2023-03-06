@@ -1766,6 +1766,10 @@ body {
   display: flex;
 }
 
+.page-blog-card-title-mobile {
+  display: none;
+}
+
 .swiper-pagination {
   display: flex;
   gap: 30px;
@@ -2991,5 +2995,51 @@ body {
   .section-politic {
     margin-top: 50px;
     margin-bottom: 104px;
+  }
+  .section-blog-card {
+    margin-top: 50px;
+    margin-bottom: 86px;
+  }
+  .blog-slider-inner {
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+  }
+  .page-blog-card {
+    padding: 20px;
+    max-height: 195px;
+  }
+  .page-blog-card-title {
+    display: none;
+  }
+  .page-blog-card-title-mobile {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+  .page-blog-card-text {
+    display: none;
+  }
+  .swiper-pagination {
+    gap: 30px;
+    padding-right: 52px;
+    padding-left: 58px;
+  }
+  .page-blog-card:nth-child(9) {
+    order: -1;
+  }
+  .page-blog-card:nth-child(6) {
+    order: -1;
+  }
+  .page-blog-card:nth-child(4) {
+    order: -1;
+  }
+  .page-blog-card:nth-child(2) {
+    order: -1;
   }
 }

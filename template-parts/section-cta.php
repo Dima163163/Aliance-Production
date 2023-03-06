@@ -3,7 +3,7 @@
         <picture>
           <source type="image/webp" srcset="img/cta.webp">
           <source type="image/png" srcset="img/cta.png">
-          <img src="img/cta.png" width="720" hight="626" alt="cta" class="cta-image">
+          <img src="img/cta.png" width="720" alt="cta" class="cta-image">
         </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
