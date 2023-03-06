@@ -88,17 +88,17 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list footer-menu-list-bold">
               <li class="footer-menu-item">
-                <a href="./about.php" class="footer-menu-link footer-menu-link-bold"
+                <a href="./about.php" class="footer-menu-link-bold"
                   >О компании</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="./news.php" class="footer-menu-link footer-menu-link-bold"
+                <a href="./news.php" class="footer-menu-link-bold"
                   >Новости</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold"
+                <a href="./contacts.php" class="footer-menu-link-bold"
                   >Контакты</a
                 >
               </li>
