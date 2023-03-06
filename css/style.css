@@ -1990,62 +1990,6 @@ body {
   .header-phone {
     margin-right: 2rem;
   }
-  .header-phone-link:hover {
-    color: inherit;
-  }
-  .button:hover {
-    background: #3a71d1;
-    border: none;
-  }
-  .card:hover .card-title {
-    color: #292d33;
-  }
-  .card:hover {
-    border-color: #ebebf0;
-  }
-  .treademark-card:hover {
-    border-color: #ebebf0;
-  }
-  .treademark-card:hover .treademark-card-title {
-    color: #292d33;
-  }
-  .treademark-card:hover .treademark-card-text {
-    color: #828a99;
-  }
-  .treademark-card:hover .treademark-card-logo {
-    fill: #828a99;
-  }
-  .clients-logo-item:hover {
-    border-color: #ebebf0;
-  }
-  .clients-logo-item:hover .clients-logo {
-    filter: grayscale(100%);
-  }
-  .primary-button-prev:hover,
-  .primary-button-next:hover {
-    border: none;
-  }
-  .card-text {
-    min-width: 100%;
-  }
-  .cta-image {
-    width: 40%;
-  }
-  .footer-info-mail:hover {
-    color: inherit;
-  }
-  .footer-phone:hover {
-    color: inherit;
-  }
-  .footer-menu-title:hover {
-    color: inherit;
-  }
-  .footer-menu-link-blod:hover {
-    color: #292d33;
-  }
-  .footer-menu-link:hover {
-    color: #828a99;
-  }
 }
 
 @media (max-width: 1235px) {
@@ -2172,6 +2116,62 @@ body {
     position: relative;
     display: block;
     width: 100%;
+  }
+  .header-phone-link:hover {
+    color: inherit;
+  }
+  .button:hover {
+    background: #3a71d1;
+    border: none;
+  }
+  .card:hover .card-title {
+    color: #292d33;
+  }
+  .card:hover {
+    border-color: #ebebf0;
+  }
+  .treademark-card:hover {
+    border-color: #ebebf0;
+  }
+  .treademark-card:hover .treademark-card-title {
+    color: #292d33;
+  }
+  .treademark-card:hover .treademark-card-text {
+    color: #828a99;
+  }
+  .treademark-card:hover .treademark-card-logo {
+    fill: #828a99;
+  }
+  .clients-logo-item:hover {
+    border-color: #ebebf0;
+  }
+  .clients-logo-item:hover .clients-logo {
+    filter: grayscale(100%);
+  }
+  .primary-button-prev:hover,
+  .primary-button-next:hover {
+    border: none;
+  }
+  .card-text {
+    min-width: 100%;
+  }
+  .cta-image {
+    width: 40%;
+  }
+  .footer-info-mail:hover {
+    color: inherit;
+  }
+  .footer-phone:hover {
+    color: inherit;
+  }
+  .footer-menu-title:hover {
+    color: inherit;
+  }
+  .footer-menu-link-blod:hover {
+    color: #292d33;
+  }
+  .footer-menu-link:hover {
+    color: #828a99;
   }
 }
 
