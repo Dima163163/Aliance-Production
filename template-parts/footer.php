@@ -44,39 +44,43 @@
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Контрактное производство</h2>
+            <h2 class="footer-menu-title-bottom">
+              <a href="./contracts.php" class="footer-menu-title">Контрактное производство</a>
+            </h2>
             <ul class="footer-menu-list footer-menu-column-2">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автомобильная химия</a>
+                <a href="./avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Бытовая химия</a>
+                <a href="./bithim.php" class="footer-menu-link">Бытовая химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link"
+                <a href="./desinfection.php" class="footer-menu-link"
                   >Дезинфицирующие средства</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
+                <a href="./aerosols.php" class="footer-menu-link">Пищевые аэрозоли</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Косметическая продукция</a>
+                <a href="./cosmetics.php" class="footer-menu-link">Косметическая продукция</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Краски аэрозольные</a>
+                <a href="./colors.php" class="footer-menu-link">Краски аэрозольные</a>
               </li>
             </ul>
           </div>
           <!-- /.footer-menu-wrapper -->
           <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Собственные марки</h2>
+            <h2 clas="footer-menu-title-bottom">
+              <a href="./trademarks.php" class="footer-menu-title">Собственные марки</a>
+            </h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+                <a href="./avtohim-agtech.php" class="footer-menu-link">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AP</a>
+                <a href="./avtohim.php" class="footer-menu-link">Автохимия AP</a>
               </li>
             </ul>
           </div>
@@ -84,17 +88,17 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list footer-menu-list-bold">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./about.php" class="footer-menu-link footer-menu-link-bold"
                   >О компании</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./news.php" class="footer-menu-link footer-menu-link-bold"
                   >Новости</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold"
                   >Контакты</a
                 >
               </li>

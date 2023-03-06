@@ -918,6 +918,10 @@ body {
   padding-left: 1rem;
 }
 
+.footer-info-mail:hover {
+  color: #5c8ee6;
+}
+
 .mail-icon,
 .adress-icon {
   width: 16px;
@@ -939,6 +943,10 @@ body {
   text-decoration: underline;
   color: #292d33;
   margin-left: 3.125rem;
+}
+
+.footer-phone:hover {
+  color: #3a71d1;
 }
 
 .footer-social {
@@ -974,12 +982,18 @@ body {
 }
 
 .footer-menu-title {
+  text-decoration: none;
+  color: #292d33;
   margin-top: 0;
   margin-bottom: 1.875rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
   line-height: 160%;
+}
+
+.footer-menu-title:hover {
+  color: #5c8ee6;
 }
 
 .footer-menu-list {
@@ -1001,6 +1015,10 @@ body {
   color: #828a99;
   margin-bottom: 15px;
   display: block;
+}
+
+.footer-menu-link:hover {
+  color: #5c8ee6;
 }
 
 .footer-menu-link-bold {
@@ -1030,6 +1048,10 @@ body {
   font-size: 0.75rem;
   line-height: 160%;
   color: inherit;
+}
+
+.footer-policy:hover {
+  color: #5c8ee6;
 }
 
 .footer-wrapper,
