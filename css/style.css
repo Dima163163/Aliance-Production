@@ -1288,6 +1288,8 @@ body {
 }
 
 .modal-button {
+  text-align: center;
+  text-decoration: none;
   width: 100%;
   padding: 1.25rem;
   font-size: 0.875rem;

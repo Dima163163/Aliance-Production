@@ -209,9 +209,9 @@
         <p class="modal-text modal-text-success">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button type="submit" class="button modal-button">
+        <a href="./" type="submit" class="button modal-button">
           Вернуться на главную
-        </button>
+        </a>
       </div>
     </div>
 		<script src="js/swiper-bundle.min.js"></script>
