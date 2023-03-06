@@ -12,7 +12,7 @@
               <use href="img/sprite.svg#map"></use>
             </svg>
             <address class="footer-info-adress">
-              г. Мосвка, Холодильный пер. 4к1с8
+              г. Москва, Холодильный пер. 4к1с8
             </address>
           </div>
           <!-- /.footer-info -->
@@ -72,7 +72,7 @@
           </div>
           <!-- /.footer-menu-wrapper -->
           <div class="footer-menu-wrapper">
-            <h2 clas="footer-menu-title-bottom">
+            <h2 class="footer-menu-title-bottom">
               <a href="./trademarks.php" class="footer-menu-title">Собственные марки</a>
             </h2>
             <ul class="footer-menu-list">
