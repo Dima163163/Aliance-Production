@@ -9,7 +9,9 @@ const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
 };
 const lightModeOff = (event) => {
-  navbar.classList.remove("navbar-light");
+  if (isFront) {
+    navbar.classList.remove("navbar-light");
+  }
 };
 
 const changeNavHeight = (height) => {
