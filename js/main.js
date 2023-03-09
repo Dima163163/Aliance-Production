@@ -280,7 +280,7 @@ forms.forEach((form) => {
       },
       {
         rule: "minLength",
-        value: 16,
+        value: 17,
         errorMessage: "Введите все цифры",
       },
     ])
