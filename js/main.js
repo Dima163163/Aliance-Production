@@ -382,6 +382,5 @@ document.addEventListener("input", (e) => {
     }
     /* итог: номер в формате +7 (999) 123-45-67 */
     input.value = result;
-    console.log("1234");
   }
 });
