@@ -2268,8 +2268,11 @@ body {
   .clients-wrapper {
     flex-direction: column;
   }
+  .button-link::before {
+    width: 40px;
+  }
   .button-link:hover:before {
-    width: 2.5rem;
+    width: 40px;
   }
   .footer-menu-column-2 {
     columns: 2;
@@ -2681,10 +2684,6 @@ body {
   }
   .blog-card-text {
     display: none;
-  }
-  .button-link::before {
-    width: 3.5rem;
-    margin-right: 20px;
   }
   .blog-slider-footer {
     margin-top: 18px;
