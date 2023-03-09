@@ -2012,7 +2012,6 @@ body {
     height: 5.8rem;
   }
   .navbar-button {
-    padding-top: 18px;
     padding-left: 26px;
     padding-right: 30px;
   }
@@ -2268,6 +2267,9 @@ body {
   }
   .clients-wrapper {
     flex-direction: column;
+  }
+  .button-link:hover:before {
+    width: 2.5rem;
   }
   .footer-menu-column-2 {
     columns: 2;

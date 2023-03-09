@@ -278,6 +278,11 @@ forms.forEach((form) => {
         rule: "required",
         errorMessage: "Укажите телефон",
       },
+      {
+        rule: "minLength",
+        value: 16,
+        errorMessage: "Введите все цифры",
+      },
     ])
     .onSuccess((event) => {
       const thisForm = event.target; // наша форма
@@ -377,5 +382,6 @@ document.addEventListener("input", (e) => {
     }
     /* итог: номер в формате +7 (999) 123-45-67 */
     input.value = result;
+    console.log("1234");
   }
 });

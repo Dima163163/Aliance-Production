@@ -34,7 +34,7 @@
 									name="userphone"
                   class="input phone-mask"
                   placeholder=" "
-                  maxlength="30"
+                  minlength="10"
                   required
                 />
                 <label class="input-group-label" for="user-phone"
